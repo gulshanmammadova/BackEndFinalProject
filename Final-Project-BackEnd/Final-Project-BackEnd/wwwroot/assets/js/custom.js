@@ -1,15 +1,7 @@
 ﻿$(document).ready(function () {
-    $(document).ready(function () {
+    
 
-        $(".basket .basket-icon").click(function () {
-            $(".basket-content").toggle("d-block");
-            $(".basket-content .close-div").click(function () {
-                $(".basket-content").css({ "display": "none" });
-                console.log("hhwllo");
-            })
-        });
-    });
-
+        
     $(document).on('click', '.addToBasket', (function () {
         let productId = $(this).data('id');
         console.log(productId)
@@ -19,6 +11,13 @@
             }).then(data => {
 
                 $('.header-cart').html(data);
+                $(".basket .basket-icon").click(function () {
+                    $(".basket-content").toggle("d-block");
+                    $(".basket-content .close-div").click(function () {
+                        $(".basket-content").css({ "display": "none" });
+                        console.log("hhwllo");
+                    })
+                });
             })
 
     }))

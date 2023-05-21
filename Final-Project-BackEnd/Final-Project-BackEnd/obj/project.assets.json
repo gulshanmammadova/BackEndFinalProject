@@ -10198,11 +10198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd.csproj",
       "projectName": "Final-Project-BackEnd",
-      "projectPath": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

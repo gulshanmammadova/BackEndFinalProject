@@ -175,21 +175,21 @@ namespace Final_Project_BackEnd.Areas.Manage.Controllers
             
                  if (category.File != null)
                     {
-                        if (category.File.CheckFileContentType("image/jpeg"))
+                        if (!category.File.CheckFileContentType("image/jpeg"))
                         {
                             ModelState.AddModelError("File", "Fayl Tipi Duz Deyil");
                             return View(category);
                         }
 
-                        if (category.File.CheckFileLength(300))
+                        if (!category.File.CheckFileLength(300))
                         {
                             ModelState.AddModelError("File", "Fayl Olcusu Maksimum 30 kb Ola Biler");
                             return View(category);
                         }
 
-                        FileHelper.DeleteFile(dbCategory.Image, _env, "assets", "images");
+                        FileHelper.DeleteFile(dbCategory.Image, _env, "assets", "img" ,"category");
 
-                        dbCategory.Image = await category.File.CraeteFileAsync(_env, "assets", "images");
+                        dbCategory.Image = await category.File.CraeteFileAsync(_env, "assets", "img" ,"category");
                     }
                 
             dbCategory.Name = category.Name.Trim();

@@ -1,779 +1,831 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\css\\bootstrap.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\css\\style.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Black.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Black.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-BlackItalic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Bold.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Bold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-BoldItalic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Italic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Italic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Light.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Light.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-LightItalic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-LightItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Medium.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Medium.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-MediumItalic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Regular.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Regular.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Thin.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-Thin.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-ThinItalic.ttf",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\fonts\\Roboto-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\about-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\about-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about\\about-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\businessman-outside-the-office-1-p8ou6suzbfk1lsis6o6hf3xhzvpj3s9ge2praalv5k.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\businessman-outside-the-office-1-p8ou6suzbfk1lsis6o6hf3xhzvpj3s9ge2praalv5k.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about\\businessman-outside-the-office-1-p8ou6suzbfk1lsis6o6hf3xhzvpj3s9ge2praalv5k.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\close-up-of-old-clock-watch-mechanism-retro-clockwork-watch-with-gearwheels-gears-vintage-movement-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\close-up-of-old-clock-watch-mechanism-retro-clockwork-watch-with-gearwheels-gears-vintage-movement-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about\\close-up-of-old-clock-watch-mechanism-retro-clockwork-watch-with-gearwheels-gears-vintage-movement-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\modern-happy-business-woman-in-the-office-1-p8ou678oy8qg6re6owu2brdwc0o36qvmn3pl8xhx4o.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\about\\modern-happy-business-woman-in-the-office-1-p8ou678oy8qg6re6owu2brdwc0o36qvmn3pl8xhx4o.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about\\modern-happy-business-woman-in-the-office-1-p8ou678oy8qg6re6owu2brdwc0o36qvmn3pl8xhx4o.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-2.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-3.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-4.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-4.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-5.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-5.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-6.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-6.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-admin-1.jpeg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-admin-1.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-admin-1.jpeg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\20230513211430111-541cf4a1-1941-46e2-aa45-b567a5226d0d-portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\category\\20230513211430111-541cf4a1-1941-46e2-aa45-b567a5226d0d-portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg"
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\20230521165234887-ca734e3e-8f81-4758-9fca-86e30fddfcb1-portrait-of-a-sports-male-in-the-home-1-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\20230521165234887-ca734e3e-8f81-4758-9fca-86e30fddfcb1-portrait-of-a-sports-male-in-the-home-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category\\portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\portrait-of-a-sports-male-in-the-home-1-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\portrait-of-a-sports-male-in-the-home-1-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category\\portrait-of-a-sports-male-in-the-home-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\runner-looking-at-sport-watch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\runner-looking-at-sport-watch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category\\runner-looking-at-sport-watch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\grey-message-box-png-clipart-removebg-preview.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\grey-message-box-png-clipart-removebg-preview.png",
       "PackagePath": "staticwebassets\\assets\\img\\grey-message-box-png-clipart-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-2.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-3.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-4.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\blog-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\blog-4.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\businessman-working-in-a-office-p8ji6wfbuxooc4fytypxeax3grl7ouhtfcb6z2y9ko.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\close-up-of-businessman-touching-wristwatch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\close-up-of-businessman-touching-wristwatch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\close-up-of-businessman-touching-wristwatch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\food-at-the-table-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\food-at-the-table-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\food-at-the-table-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\holding-hands-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\holding-hands-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\holding-hands-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\influencer-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\influencer-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\influencer-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\knee-pain-running-injury-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\knee-pain-running-injury-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\knee-pain-running-injury-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\man-looking-wristwatch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\man-looking-wristwatch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\man-looking-wristwatch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\portrait-of-a-sports-male-in-the-home-1-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\influencer\\portrait-of-a-sports-male-in-the-home-1-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\influencer\\portrait-of-a-sports-male-in-the-home-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\logo\\logo-1.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\logo\\logo-1.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo\\logo-1.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506144428889-7da36db0-edd4-4e26-84cb-cfecb6ad9feb-closeup-of-watch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506144428889-7da36db0-edd4-4e26-84cb-cfecb6ad9feb-closeup-of-watch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506144428889-7da36db0-edd4-4e26-84cb-cfecb6ad9feb-closeup-of-watch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506144456904-cd687507-123c-4147-9f38-70592dffce95-closeup-of-watch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506144456904-cd687507-123c-4147-9f38-70592dffce95-closeup-of-watch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506144456904-cd687507-123c-4147-9f38-70592dffce95-closeup-of-watch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145805403-ae7fb544-900a-4cd9-b166-8955eecb257f-unisex-watches-on.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145805403-ae7fb544-900a-4cd9-b166-8955eecb257f-unisex-watches-on.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506145805403-ae7fb544-900a-4cd9-b166-8955eecb257f-unisex-watches-on.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145851049-d544d70f-7331-4406-85ea-e2493da7737e-unisex-watches-on.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145851049-d544d70f-7331-4406-85ea-e2493da7737e-unisex-watches-on.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506145851049-d544d70f-7331-4406-85ea-e2493da7737e-unisex-watches-on.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145918866-a412f996-f421-4072-af89-1b1c6774ec41-watch-isolated-on-white-background.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145918866-a412f996-f421-4072-af89-1b1c6774ec41-watch-isolated-on-white-background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506145918866-a412f996-f421-4072-af89-1b1c6774ec41-watch-isolated-on-white-background.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506150636001-e9abbaec-5555-422d-902d-fd56431aaeec-watch-isolated-on-white-background.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506150636001-e9abbaec-5555-422d-902d-fd56431aaeec-watch-isolated-on-white-background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506150636001-e9abbaec-5555-422d-902d-fd56431aaeec-watch-isolated-on-white-background.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506150636044-b2d1fb27-28e6-4c78-82df-c573cffe0764-watch-isolated-on-white-background.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506150636044-b2d1fb27-28e6-4c78-82df-c573cffe0764-watch-isolated-on-white-background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230506150636044-b2d1fb27-28e6-4c78-82df-c573cffe0764-watch-isolated-on-white-background.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513204517757-431a1df5-2cef-43fd-9c2a-0f21c97e6013-watch-isolated.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\20230513204517757-431a1df5-2cef-43fd-9c2a-0f21c97e6013-watch-isolated.jpg"
-    },
-    {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513204933401-3befc18b-0cc5-41c2-9f29-2dab7dbe4ddc-20230513204517757-431a1df5-2cef-43fd-9c2a-0f21c97e6013-watch-isolated.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\20230513204933401-3befc18b-0cc5-41c2-9f29-2dab7dbe4ddc-20230513204517757-431a1df5-2cef-43fd-9c2a-0f21c97e6013-watch-isolated.jpg"
-    },
-    {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513204933409-c0e654ff-2dd3-424b-97c1-2f1685278eb9-men-s.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\20230513204933409-c0e654ff-2dd3-424b-97c1-2f1685278eb9-men-s.jpg"
-    },
-    {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513205512179-6d93ebcc-ed81-4aa5-a05a-c87b05006958-watch-isolated.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513205512179-6d93ebcc-ed81-4aa5-a05a-c87b05006958-watch-isolated.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230513205512179-6d93ebcc-ed81-4aa5-a05a-c87b05006958-watch-isolated.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513205512185-eb5255b8-8600-4cec-8c22-43504b411f93-swiss-mechanical-wrist-watch-300x300.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230513205512185-eb5255b8-8600-4cec-8c22-43504b411f93-swiss-mechanical-wrist-watch-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230513205512185-eb5255b8-8600-4cec-8c22-43504b411f93-swiss-mechanical-wrist-watch-300x300.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515130841275-81ba9e68-b66f-4e56-a1e5-1cc5134d298d-MK6845.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515130841275-81ba9e68-b66f-4e56-a1e5-1cc5134d298d-MK6845.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515130841275-81ba9e68-b66f-4e56-a1e5-1cc5134d298d-MK6845.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131106803-8e9476d0-ac01-422e-8bfb-f6cc476f4806-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131106803-8e9476d0-ac01-422e-8bfb-f6cc476f4806-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131106803-8e9476d0-ac01-422e-8bfb-f6cc476f4806-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131131252-2223bb1f-456c-4d25-af12-87cde1aec750-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131131252-2223bb1f-456c-4d25-af12-87cde1aec750-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131131252-2223bb1f-456c-4d25-af12-87cde1aec750-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131147777-296376e7-a66e-404e-9cc1-d6c5911c8610-unisex-watches-on.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131147777-296376e7-a66e-404e-9cc1-d6c5911c8610-unisex-watches-on.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131147777-296376e7-a66e-404e-9cc1-d6c5911c8610-unisex-watches-on.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131147780-96311fc4-36fa-47d4-802d-05c3757604cc-swiss-mechanical-wrist-watch-300x300.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131147780-96311fc4-36fa-47d4-802d-05c3757604cc-swiss-mechanical-wrist-watch-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131147780-96311fc4-36fa-47d4-802d-05c3757604cc-swiss-mechanical-wrist-watch-300x300.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\98C133.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521165419667-b7ced6d1-0dff-4388-a1a2-5d1f352fb58b-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521165419667-b7ced6d1-0dff-4388-a1a2-5d1f352fb58b-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521175428280-4f458bac-1025-43db-9da8-5ac626c5d5df-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521175428280-4f458bac-1025-43db-9da8-5ac626c5d5df-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521175428318-6b6bdfc6-957f-4b92-b64b-573de99790f1-watch-isolated.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521175428318-6b6bdfc6-957f-4b92-b64b-573de99790f1-watch-isolated.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521175428323-15480a68-ee21-4101-823b-d7e9d0768fb6-unisex-watches-on.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521175428323-15480a68-ee21-4101-823b-d7e9d0768fb6-unisex-watches-on.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521175617964-a494ab4e-d9c7-43cd-9445-46608f288ff3-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521175617964-a494ab4e-d9c7-43cd-9445-46608f288ff3-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521180148301-b40c5e89-b1b2-4cdf-83fe-be881c858c35-men-s-mechanical.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521180148301-b40c5e89-b1b2-4cdf-83fe-be881c858c35-men-s-mechanical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521180148334-598922d8-1400-4269-a07a-b3e87a3c3227-MK6845.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521180148334-598922d8-1400-4269-a07a-b3e87a3c3227-MK6845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521180148346-92fb1428-0564-4916-92c7-e0e1c46cfeac-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521180148346-92fb1428-0564-4916-92c7-e0e1c46cfeac-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521180218794-d7a7e67f-c4cd-458c-b9d3-dab80e1054e2-closeup-of-watch-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521180218794-d7a7e67f-c4cd-458c-b9d3-dab80e1054e2-closeup-of-watch-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521180218809-beb6ff95-932b-41d4-a005-ecd6446f1598-download.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521180218809-beb6ff95-932b-41d4-a005-ecd6446f1598-download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521181449280-108b46d9-a3ad-4308-8f84-069c1d1e086d-98C133.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521181449280-108b46d9-a3ad-4308-8f84-069c1d1e086d-98C133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521181449321-191d76b5-e0a8-40a3-bd8f-d5de39a5dfa9-swiss-mechanical-wrist-watch-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521181449321-191d76b5-e0a8-40a3-bd8f-d5de39a5dfa9-swiss-mechanical-wrist-watch-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521181449327-18d63872-2126-4efb-9ac0-91ba6e6c3258-watch-isolated.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521181449327-18d63872-2126-4efb-9ac0-91ba6e6c3258-watch-isolated.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521182420305-185603ed-17cf-4fee-94a0-fbffafcc3b0f-98C133.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521182420305-185603ed-17cf-4fee-94a0-fbffafcc3b0f-98C133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521182420317-ba576c64-c897-4c71-b558-a891ade2e983-98C133.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521182420317-ba576c64-c897-4c71-b558-a891ade2e983-98C133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521182428494-f45544bf-cfe1-4208-a1c2-1cf8882d12cb-98C133.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521182428494-f45544bf-cfe1-4208-a1c2-1cf8882d12cb-98C133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521182428502-c0d8862a-9c82-4410-bc70-bcd1431306e0-98C133.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521182428502-c0d8862a-9c82-4410-bc70-bcd1431306e0-98C133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\98C133.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\98C133.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\MK6845.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\MK6845.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\MK6845.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\VV006RGDBLK.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\VV006RGDBLK.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\VV006RGDBLK.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\closeup-of-watch-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\closeup-of-watch-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\closeup-of-watch-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\download.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\download.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\download.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanical.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanical.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\men-s-mechanical.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanicals.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\men-s-mechanicals.jpg"
-    },
-    {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\men-s.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\swiss-mechanical-wrist-watch-300x300.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\swiss-mechanical-wrist-watch-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\swiss-mechanical-wrist-watch-300x300.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\unisex-watches-on.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\unisex-watches-on.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\unisex-watches-on.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated-on-white-background.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated-on-white-background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\watch-isolated-on-white-background.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\watch-isolated.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-13.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-13.png",
       "PackagePath": "staticwebassets\\assets\\img\\sponsor\\logoipsum-logo-13.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-14.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-14.png",
       "PackagePath": "staticwebassets\\assets\\img\\sponsor\\logoipsum-logo-14.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-15.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-15.png",
       "PackagePath": "staticwebassets\\assets\\img\\sponsor\\logoipsum-logo-15.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-16-1.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-16-1.png",
       "PackagePath": "staticwebassets\\assets\\img\\sponsor\\logoipsum-logo-16-1.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\js\\custom.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\js\\custom.js",
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\js\\main.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\InShot_20230427_210857259.mp4",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\InShot_20230427_210857259.mp4",
       "PackagePath": "staticwebassets\\assets\\video\\InShot_20230427_210857259.mp4"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\InShot_20230427_212129475.mp4",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\InShot_20230427_212129475.mp4",
       "PackagePath": "staticwebassets\\assets\\video\\InShot_20230427_212129475.mp4"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\Video Placeholder.mp4",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\video\\Video Placeholder.mp4",
       "PackagePath": "staticwebassets\\assets\\video\\Video Placeholder.mp4"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\manage\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\css\\style.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\css\\style.css",
       "PackagePath": "staticwebassets\\manage\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\manage\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\manage\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\user.jpg",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\user.jpg",
       "PackagePath": "staticwebassets\\manage\\img\\user.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\js\\custom.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\js\\custom.js",
       "PackagePath": "staticwebassets\\manage\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\js\\main.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\js\\main.js",
       "PackagePath": "staticwebassets\\manage\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\chart\\chart.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\manage\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\manage\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\manage\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\Arloji-BackEnd\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\manage\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {

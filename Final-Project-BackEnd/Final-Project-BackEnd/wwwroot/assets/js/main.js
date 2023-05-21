@@ -1,4 +1,9 @@
-
+$(".basket .basket-icon").on("click",function () {
+    $(".basket-content").toggle("d-block");
+    $(".basket-content .close-div").click(function () {
+        $(".basket-content").css({ "display": "none" });
+    })
+}); 
 //Slick slider Single Product
 $('.slider-for').slick({
     slidesToShow: 1,
@@ -15,6 +20,7 @@ $('.slider-nav').slick({
     centerMode: true,
     focusOnSelect: true
 });
+
 // Toggle Table
 $(".accordian-body").on("show.bs.collapse", function () {
   $(this).closest("table").find(".collapse.in").not(this);
@@ -31,15 +37,7 @@ $(document).ready(function() {
     $(".account-content > div:eq(" + index + ")").removeClass("d-none");
   });
 });
-$(document).ready(function() {
-  
-  $(".basket .basket-icon").onclick(function() {
-    $(".basket-content").toggle("d-block");
-    $(".basket-content .close-div").click(function(){
-      $(".basket-content").css({"display":"none"});
-    })
-  });
-});
+
 
 // Timer
 $(document).ready(function () {
