@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\category\\20230521165234887-ca734e3e-8f81-4758-9fca-86e30fddfcb1-portrait-of-a-sports-male-in-the-home-1-1.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\20230521234727911-68e28144-d954-426d-a082-3c9fb369be4f-runner-looking-at-sport-watch-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\20230521234727911-68e28144-d954-426d-a082-3c9fb369be4f-runner-looking-at-sport-watch-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\category\\portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category\\portrait-of-a-brutal-man-in-sunglasses-and-watch-outdoors-1.jpg"
     },
@@ -327,6 +331,22 @@
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521184515244-b79e6f27-3be9-4aa9-b385-4de0f45a8f87-VV006RGDBLK.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230521184515244-b79e6f27-3be9-4aa9-b385-4de0f45a8f87-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521234834622-5e552e89-c8a2-4dc2-9d0b-cca952582e3d-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521234834622-5e552e89-c8a2-4dc2-9d0b-cca952582e3d-VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521234834655-d8bbde92-d805-49bc-a385-01b0c86a83d8-men-s.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521234834655-d8bbde92-d805-49bc-a385-01b0c86a83d8-men-s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521234834661-66e12042-1439-4439-8cd6-82249d95c036-MK6845.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521234834661-66e12042-1439-4439-8cd6-82249d95c036-MK6845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230521234834669-fe506e11-8167-4d1a-8200-c3daf0821b8e-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230521234834669-fe506e11-8167-4d1a-8200-c3daf0821b8e-VV006RGDBLK.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\98C133.jpg",
