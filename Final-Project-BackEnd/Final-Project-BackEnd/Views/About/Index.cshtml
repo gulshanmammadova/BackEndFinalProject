@@ -18,9 +18,9 @@
             <div class="about-page-info ">
                 <div class="about-bread-crump  mx-auto">
                     <!-- Bread- Crump  -->
-                    <a href="index.html" class="fw-bold  ">HOME</a>
+                    <a asp-controller="home" asp-action="index" class="fw-bold  ">HOME</a>
                     <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
-                    <a href="about.html" class="fw-bold ">ABOUT US</a>
+                    <a asp-action="index" asp-controller="about" class="fw-bold ">ABOUT US</a>
                     <!--End of Bread- Crump  -->
                     <!-- Page Name     -->
                 </div>
@@ -184,7 +184,7 @@
                             </span>
                         </li>
                     </ul>
-                    <a href="about.html"> BUILD CUSTOM</a>
+                    <a asp-action="index" asp-controller="shop"> BUILD CUSTOM</a>
 
                 </div>
             </div>
@@ -215,7 +215,7 @@
     <section id="insta-address">
         <div class="insta container">
             <h1>FOLLOW US ON INSTAGRAM</h1>
-            <a href="contact.html" class="">
+            <a asp-action="index" asp-controller="contact" class="">
                 <i class="fa-brands fa-instagram"></i> USERNAME
             </a>
         </div>

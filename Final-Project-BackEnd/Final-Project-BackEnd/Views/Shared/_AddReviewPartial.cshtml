@@ -1,16 +1,25 @@
 ﻿@model Review
 
-<div class="rating-star d-flex text text-dark align-center">
-        <p class="title text-dark">Rating:</p>
-    <div class="rate  d-flex justify-content-between mx-2">
+<div class="rating-star d-flex text text-dark align-center" style="align-items:baseline;">
+        <p class="title text-dark my-3" >Rating:</p>
+    <div class="rate  d-flex justify-content-between mx-2" style="align-items:flex-start;height:16px;">
+        <i class="fas fa-star mx-1"></i>
         <input form="reviewForm" type="radio" id="star1" asp-for="Star" value="1" />
         <label for="star1" title="1">1 star</label>
+        <i class="fas fa-star mx-1"></i>
+
         <input form="reviewForm" type="radio" id="star2" asp-for="Star" value="2" />
+
         <label for="star2" title="2">2 stars</label>
+        <i class="fas fa-star mx-1"></i>
+     
         <input form="reviewForm" type="radio" id="star3" asp-for="Star" value="3" />
         <label for="star3" title="3">3 stars</label>
+        <i class="fas fa-star mx-1"></i>
+      
         <input form="reviewForm" type="radio" id="star4" asp-for="Star" value="4" />
         <label for="star4" title="4">4 stars</label>
+        <i class="fas fa-star mx-1"></i>
 
         <input form="reviewForm" type="radio" id="star5" asp-for="Star" value="5" />
             <label for="star5" title="5">5 stars</label>
@@ -23,6 +32,8 @@
             <div class="single-form">
                 <label asp-for="Name" ></label>
                 <input asp-for="Name" placeholder="Name">
+                <span asp-validation-for="Name" class="text text-danger"></span>
+
             </div>
         </div>
         <div class="col-md-6">

@@ -15,8 +15,30 @@ body {
     right: 0;
     padding: 6px 11px;
 }
-.quick-view-info a:nth-child(2) {
- color:white !important;}
+.fa-star {
+    color: #0F4C75;
+}
+.pagination {
+background-color:white;
+}
+.no-reviuw {
+    padding: 2rem 3px;
+    font-size: 28px;
+    color: #3e6091 !important;
+}
+.rating-list {
+    padding: 2rem 3px;
+}
+.rating-list span {
+    color: #3e6091 !important;
+}
+.active .page-link {
+    background-color: #3e6091 !important;
+    border-color: #3e6091 !important;
+}
+        .quick-view-info a:nth-child(2) {
+    color: white !important;
+}
 .quick-view-info a:nth-child(2):hover {
     color: #0F4C75 !important;
 }
@@ -3928,11 +3950,10 @@ position: sticky;
   .account-type li:hover span{
     color: #FFFFFF;
   }
-  .active{
+.active {
     background-color: #1B262C;
-    box-shadow: 0px 0px 10px 3px #e0cece;
-   
-  }
+    box-shadow: 0px 0px 27px 0px #5e5e5e54;
+}
   .active span{
     color: white;
   }
