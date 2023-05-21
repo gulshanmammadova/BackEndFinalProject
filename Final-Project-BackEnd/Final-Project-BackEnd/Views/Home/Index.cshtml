@@ -1,0 +1,411 @@
+﻿@model HomeVM
+@{
+    int count = 0;
+    int countp = 0;
+    int countt = 0;
+    ViewData["Title"] = "Index";
+}
+
+<!-- End of Header Section -->
+<!-- Main Section -->
+<main class="overflow-hidden">
+
+
+
+
+
+
+
+
+    <section id="home-header">
+        <div class="home-video">
+            <video src="~/assets/video/InShot_20230427_210857259.mp4" muted autoplay loop style="width: 100%;"></video>
+        </div>
+    </section>
+    <section id="daily-sale">
+        <div class="sale-all container">
+            <div class="daily-sale-img">
+                <img src="~/assets/img/product/closeup-of-watch-1.jpg"
+                     alt="Video Kapak Resmi">
+                <a href="https://www.youtube.com/watch?v=XHOmBV4js_E" target="_top"
+                   style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:block; width:80px; height:80px; background-color:rgba(0,0,0,0.6); border-radius:50%; text-align:center; line-height:80px; color:#fff; font-size:40px; text-decoration:none;">
+                    <i class="fas fa-play"></i>
+                </a>
+
+            </div>
+            <div class="sale-timer">
+                <div class="timer">
+                    <div><span class="days"></span><p>Days</p></div>
+                    <div><span class="hours"> </span><p>Hours</p></div>
+                    <div><span class="minutes"></span><p>Mins</p></div>
+                    <div><span class="seconds"></span><p>Seconds</p></div>
+                </div>
+                <div class="sale-name">
+                    <h5>GET DAILY SALE ONLY ON 12:00 PM</h5>
+                </div>
+                <div class="shop-now">
+                    <a href="shop.html">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="best-choice-section">
+        <div class="best-choice container">
+
+            <div class="choice-info" data-aos="zoom-in-up" data-aos-delay="150">
+                <h5>BEST CHOICING</h5>
+                <h2>COMPLETE COLLECTION ELEGAN HAND WATCH</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="equality">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Original Brands
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Best Price Selling
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Best Quality Products
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="shop.html"> SHOP COLLECTION</a>
+
+                </div>
+            </div>
+            <div class="img-video" data-aos="zoom-in-up" data-aos-delay="180">
+                <img src="~/assets/img/influencer/blog-4.jpg"
+                     alt="Video Kapak Resmi">
+                <a href="https://www.youtube.com/watch?v=XHOmBV4js_E" target="_blank"
+                   style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:block; width:80px; height:80px; background-color:rgba(0,0,0,0.6); border-radius:50%; text-align:center; line-height:80px; color:#fff; font-size:40px; text-decoration:none;">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="new-arrival">
+        <div class="new-arrival-all container">
+            <div class="prod-imges">
+                <img class="" src="~/assets/img/blog/blog-1.jpg" alt="" data-aos="zoom-in-up" data-aos-delay="350" data-aos-easing="ease-in-out">
+                <img class="" src="~/assets/img/blog/blog-2.jpg" alt="" data-aos="zoom-in-up" data-aos-delay="410" data-aos-easing="ease-in-out">
+                <img class="" src="~/assets/img/blog/blog-3.jpg" alt="" data-aos="zoom-in-up" data-aos-delay="470" data-aos-easing="ease-in-out">
+            </div>
+            <div class="nev-arrival-product">
+                <div class="new-arrival-info">
+                    <h5>
+                        NEW ARRIVAL
+                    </h5>
+                    <h2>NEW ARRIVAL MEN WATCH LOOK STYLE</h2>
+                </div>
+                <div class="new-prod-card row">
+                    @foreach (var newArrivals in Model.NewArrivals)
+                    {
+                        count += 1;
+                        if (count < 4)
+                        {
+                            <div class="card col-lg-4">
+                                <a asp-action="detail" asp-controller="shop" asp-route-id="@newArrivals.Id">
+                                    <img  class="card-img-top" src="~/assets/img/product/@newArrivals.MainImage" alt="Card image cap">
+
+                                </a>    <div class="card-body">
+                                    @if (newArrivals.IsSpecialSale)
+                                    {
+                                        <span class="badge ">SALE!</span>
+
+                                    }
+                                    <h5 class="card-title">@newArrivals.Title</h5>
+                                    @if (newArrivals.DiscountedPrice > 0)
+                                    {
+                                        <p class="card-text">
+
+                                            <del>$@newArrivals.Price</del><span class="discounted-price mx-2">$<span>@newArrivals.DiscountedPrice</span></span>
+                                        </p>
+                                    }
+                                    else
+                                    {
+                                        <p class="discounted-price mx-2">$<span>@newArrivals.Price</span>  </p>
+                                    }
+
+                                    <a class="addToBasket" data-id="@newArrivals.Id">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        }
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="special-sale">
+        <div class="special container">
+
+            <div class="special-sale-product ">
+                <div class="special-sale-info">
+                    <h5>
+                        SPECIAL SALE
+                    </h5>
+                    <h2>LIMITED & SPECIAL EDITION OF OUR BRAND</h2>
+                </div>
+                <div class="special-prod-card">
+                    @foreach (var item in Model.Specials)
+                    {
+                        countp += 1;
+                        if (countp < 4)
+                        {
+                            <div class="card">
+                              <a  asp-action="detail" asp-controller="shop" asp-route-id="@item.Id">
+                                <img class="card-img-top" src="~/assets/img/product/@item.MainImage" alt="Card image cap">
+
+                                </a>
+                                <span class="badge ">SALE!</span>
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">@item.Title</h5>
+                                    @if (item.DiscountedPrice > 0)
+                                    {
+                                        <p class="card-text">
+
+                                            <del>$@item.Price</del><span class="discounted-price mx-2">$<span>@item.DiscountedPrice</span></span>
+                                        </p>
+                                    }
+                                    else
+                                    {
+                                        <p class="discounted-price mx-2">$<span>@item.Price</span>  </p>
+                                    }
+
+                                    <a class="addToBasket" data-id="@item.Id">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        }
+                    }
+
+
+                </div>
+
+            </div>
+            <div class="special-prod-img" data-aos="zoom-in-up" data-aos-delay="100">
+                <img class="" src="~/assets/img/influencer/close-up-of-businessman-touching-wristwatch-1.jpg" alt="">
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+    <section id="custom-prod-section">
+        <div class="custom container">
+            <div class="watch-img" data-aos="zoom-in-up" data-aos-delay="110">
+                <img src="~/assets/img/about/close-up-of-old-clock-watch-mechanism-retro-clockwork-watch-with-gearwheels-gears-vintage-movement-1.jpg"
+                     alt="Saat Resmi">
+                </a>
+            </div>
+            <div class="custom-product-info" data-aos="zoom-in-up" data-aos-delay="350">
+                <h5>CUSTOM PRODUCT</h5>
+                <h2>CUSTOM PRODUCT TO CUSTOMIZE YOUR LOOK</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="our-watch">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Kids Hand Watch
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Men Hand Watch
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Woman Hand Watch
+                            </span>
+                        </li>
+                    </ul>
+                    <a asp-controller="home" asp-action="index"> REGUEST CUSTOM</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="shop-now">
+        <div class="shop-by-category container">
+            <div class="shop-now-title" data-aos="zoom-in-up" data-aos-delay="350">
+                <h5>SHOP NOW</h5>
+                <h2>SHOP BY CATEGORIES</h2>
+            </div>
+            <div class="all-category">
+                @foreach (var item in Model.Categories)
+                {
+                    <div class="single-category" data-aos="zoom-in-up" data-aos-delay="350">
+                        <img src="~/assets/img/category/@item.Image" alt="">
+                        <h4>@item.Name</h4>
+                        <p>@item.Description</p>
+                        <a asp-action="index" asp-controller="shop">SHOP NOW</a>
+                    </div>
+
+                }
+
+            </div>
+        </div>
+    </section>
+
+    <section id="latest-product">
+        <div class="latest-prod container">
+            <div class="latest-prod-info">
+                <h5>LATEST PRODUCTS</h5>
+                <h2>MAYBE YOU LIKE</h2>
+            </div>
+            <div class="latest-prod-card row">
+                @foreach (var item in Model.Specials)
+                {
+                    countt += 1;
+                    if (countt < 4)
+                    {
+                        <div class="card col-lg-2 col-sm-12">
+                            <a asp-action="detail" asp-controller="shop" asp-route-id="@item.Id">
+                                <img  class="card-img-top" src="~/assets/img/product/@item.MainImage" alt="Card image cap">
+
+                            </a>
+                            @if (item.IsSpecialSale)
+                            {
+                                <span class="badge ">SALE!</span>
+
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Title</h5>
+                                @if (item.DiscountedPrice > 0)
+                                {
+                                    <p class="card-text">
+
+                                        <del>$@item.Price</del><span class="discounted-price mx-2">$<span>@item.DiscountedPrice</span></span>
+                                    </p>
+                                }
+                                else
+                                {
+                                    <p class="discounted-price mx-2">$<span>@item.Price</span></p>
+                                }
+
+                                <a class="addToBasket" data-id="@item.Id">ADD TO CARD</a>
+                            </div>
+                        </div>
+
+                    }
+                }
+
+
+            </div>
+        </div>
+    </section>
+    <section id="feedback">
+        <div class="best-feedback container" data-aos="zoom-in-up" data-aos-delay="250">
+            <div class="feedback-info container">
+                <div class="feedback-title container">
+                    <h5>WHAT THEY SAYS</h5>
+                    <h2>BEST FEEDBACK FROM MANY PEOPLE</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                </div>
+                <div class="feedback-slider mx-auto">
+                    <div class="feedback-slider">
+                        <div class="slider-item">
+                            <div class="info"><h6>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.		"</h6></div>
+                            <div class="commenter">
+                                <img src="~/assets/img/influencer/influencer-1.jpg" alt="">
+                                <div class="testimonial-info">
+                                    <p>CEO</p>
+                                    <p>Jhon Doe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="info"><h6>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.		"</h6></div>
+                            <div class="commenter">
+                                <img src="~/assets/img/influencer/influencer-1.jpg" alt="">
+                                <div class="testimonial-info">
+                                    <p>CEO</p>
+                                    <p>Jhon Doe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="info"><h6>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.		"</h6></div>
+                            <div class="commenter">
+                                <img src="~/assets/img/influencer/influencer-1.jpg" alt="">
+                                <div class="testimonial-info">
+                                    <p>CEO</p>
+                                    <p>Jhon Doe</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-video" data-aos="zoom-in-up" data-aos-delay="350">
+                <img src="~/assets/img/influencer/man-looking-wristwatch-1.jpg"
+                     alt="Video Kapak Resmi">
+                <a href="https://www.youtube.com/watch?v=XHOmBV4js_E" target="_blank"
+                   style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:block; width:80px; height:80px; background-color:rgba(0,0,0,0.6); border-radius:50%; text-align:center; line-height:80px; color:#fff; font-size:40px; text-decoration:none;">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+
+
+            <div class="slider-content container">
+                <div class="slider  row">
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-13.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-14.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-15.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-16-1.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-13.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-14.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-15.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-16-1.png" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="insta-address">
+        <div class="insta container">
+            <h1>FOLLOW US ON INSTAGRAM</h1>
+            <a asp-action="index" asp-controller="contact" class="">
+                <i class="fa-brands fa-instagram"></i> USERNAME
+            </a>
+        </div>
+
+    </section>
+
+    <section id="imgs">
+        <div class="random-image">
+            <img src="~/assets/img/influencer/food-at-the-table-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="150">
+            <img src="~/assets/img/influencer/female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="250">
+            <img src="~/assets/img/influencer/knee-pain-running-injury-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="250">
+            <img src="~/assets/img/influencer/holding-hands-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="250">
+
+        </div>
+
+
+
+       
+    </section>
+
+
+</main>
+<!-- End of Main Section -->
+<!-- Footer Section -->
+<!-- Remove the container if you want to extend the Footer to full width. -->

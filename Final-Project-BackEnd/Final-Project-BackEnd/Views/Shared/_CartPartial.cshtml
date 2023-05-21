@@ -1,0 +1,114 @@
+﻿@model List<BasketVM>
+@{
+    double totalPrice = 0;
+    int count = 0;
+}
+<!-- End of Header Section -->
+<!-- Main Section -->
+<main>
+    <section id="cart-all" style="margin-top:0rem;">
+
+        <div class="cart-all-content container" style="padding:8rem 0;">
+            <div class="cart-table">
+                <table class="table container">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Count</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Delete</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (BasketVM basketVM in Model)
+                        {
+                            count += 1;
+                            <tr>
+                                <th scope="row">@count</th>
+                                <td><img src="./assets/img/product/@basketVM.Image" alt=""></td>
+                                <td><p>@basketVM.Title</p></td>
+                                <td class="price-column">
+                                    <p>
+                                        $ @basketVM.Price
+                                    </p>
+                                </td>
+                                <td>
+                                    <div class="number">
+                                        <span data-id="@basketVM.Id" class="minus-btn">-</span>
+                                        <input class="countİnpForProduct" type="text" value=@basketVM.Count />
+                                        <span data-id="@basketVM.Id" class="plus-btn">+</span>
+                                    </div>
+                                </td>
+
+                                <td class="total-price-column"><span>$ 
+                                       @if (basketVM.Count==1)
+                                        {
+                                            @basketVM.Price
+                                        }
+                                        else
+                                        {
+                                            @(basketVM.Count * basketVM.Price)
+                                        }
+                                    </span></td>
+                                <td>
+                                        <a data-id="@basketVM.Id" class="removeProdInCart">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </a>
+
+                                </td>
+                            </tr>
+                            totalPrice += basketVM.Count * basketVM.Price;
+                          
+                        }
+                      </tbody>
+                </table>
+            </div>
+            <div class="cart-price container">
+                <div class="basket-setting">
+                    <hr>
+                    <div class="basket-price">
+                        <div class="sub">
+                            <span class="setting ">SubTotal:</span> 
+                                <span>$@totalPrice</span>
+                              
+                       
+                        </div>
+                        <div class="all ">  <span class="setting">Total:</span>
+                      <span>$@totalPrice</span>
+                        </div>
+
+                    </div>
+                    @if (User.Identity.IsAuthenticated && Model != null && Model.Count() > 0)
+                    {
+                        <a asp-controller="order" asp-action="checkout">Proceed Checkout</a>
+                    }
+                    else if (!User.Identity.IsAuthenticated)
+                    {
+                           <a asp-controller="Account" asp-action="Login"> Login</a>
+                    
+                    }
+                    else if (User.Identity.IsAuthenticated &&(Model==null || Model.Count()!>0))
+                    {
+
+                        <a asp-controller="shop" asp-action="index">Go Shopping </a>
+
+                    }
+
+                        
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+<!-- End of Main Section -->
+<!-- Footer Section -->

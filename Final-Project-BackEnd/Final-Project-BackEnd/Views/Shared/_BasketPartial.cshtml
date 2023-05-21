@@ -1,0 +1,48 @@
+﻿@model IEnumerable<BasketVM>
+
+    <div class="basket">
+        <div class="basket-icon">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="item-count">@Model.Count()</span>
+        </div>
+
+
+        <div class="basket-content container ">
+            <i class="fa-solid fa-x close-div"></i>
+            <div class="basket-ul">
+                <ul>
+                   @foreach (BasketVM basketVM in Model)
+                    {
+                        <li>
+                            <div class="basket-prod-img">
+                                <img src="~/assets/img/product/@basketVM.Image" alt="">
+                            </div>
+                            <div class="price">
+                                <span>@basketVM.Title</span>
+                                <span><span class="single-price">@basketVM.Count*@basketVM.Price</span>$</span>
+                            </div>
+                           
+                        </li>
+
+                    }
+
+                </ul>
+
+            </div>
+            <div class="basket-setting">
+                <hr>
+                <div class="basket-price">
+                    <div class="sub">  <span class="setting">SubTotal:</span> <span>@Model.Sum(b=>b.Count * b.Price)</span></div>
+                    <div class="all">  <span class="setting">Total:</span> <span>@(Model.Sum(b => b.Count * b.Price))</span></div>
+
+                </div>
+                 @if (Model != null && Model.Count() > 0)
+                {
+                    <a asp-controller="order" asp-action="checkout">Check Out</a>
+                    <a asp-action="ViewCart" asp-controller="Basket"> Go Cart</a>
+
+                }
+                 </div>
+        </div>
+    </div>
+

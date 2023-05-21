@@ -1,0 +1,22 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Final_Project_BackEnd.Models
+{
+    public class Comment:BaseEntity
+    {
+        public int? BlogId { get; set; }
+        public Blog? Blog { get; set; }
+        public string? UserId { get; set; }
+        public AppUser? User { get; set; }
+        [EmailAddress]
+        public string? Email { get; set; }
+        [StringLength(100)]
+        public string? Name { get; set; }
+        [StringLength(1000)]
+        public string? Commenttext { get; set; }
+        public string? Website { get; set; }
+
+
+
+    }
+}

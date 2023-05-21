@@ -1,0 +1,180 @@
+﻿@model ProfileVM
+@{
+    ViewData["Title"] = "Profile";
+}
+
+
+<section id="my-account" style="padding:5rem;">
+    <div class="account container">
+        <div class="account-type">
+            <ul>
+                <li data-target="div1" class="@(TempData["Tab"] == null ? "active":"")"><i class="fa-solid fa-gauge-high"></i><span>Dashboard</span></li>
+                <li data-target="div2" class="@(TempData["Tab"] == "order" ? "active":"")"><i class="fa-solid fa-basket-shopping"></i><span>Order</span></li>
+                <li data-target="div3" class="@(TempData["Tab"] == "download" ? "active":"")"><i class="fa-solid fa-location-dot"></i><span>Address</span></li>
+                <li data-target="div4" class="@(TempData["Tab"] == "address" ? "active":"")"><i class="fa-solid fa-user"></i><span>Account Detail</span></li>
+               <a asp-controller="account" asp-action="signout">
+                     <li data-target="div5" class="@(TempData["Tab"] == "account" ? "active":"")">
+                        <i class="fa-solid fa-right-from-bracket"></i><span>Logout</span>
+
+                    
+                    </li>
+                    </a>
+            </ul>
+        </div>
+        <div class="account-content">
+            <div class="dashboard-content tab-pane fade @(TempData["Tab"]?.ToString() == null ? "show d-block active":"") container content-container div1 " style="background-color:white;box-shadow:none;">
+                <p>
+                    Hello <span style="color:black;"> @User.Identity.Name</span>
+                    From your account dashboard. you can easily check & view your recent orders, manage your shipping and billing addresses and edit your password and account details.
+                </p>
+            </div>
+            <div class="order-content @(TempData["Tab"]?.ToString() == "order" ? "show d-block active":"")  container content-container d-none div2">
+                <table class="table table-condensed" style="border-collapse:collapse;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>Status</th>
+                            <th>coment</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (Order order in Model.Orders)
+                    {
+                        <tr data-toggle="collapse" data-target="#demo@(order.Id)" class="accordion-toggle">
+                            <td>@order.No</td>
+                            <td>@order.CreatedAt?.ToString("dd MMM yyyy")</td>
+                            <td class="text-success">@(order.OrderItems.Sum(o => (o.Price * o.Count)))$</td>
+                            <td>@order.Status</td>
+                            <td>@order.Comment</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="hiddenRow">
+                                <div class="accordian-body collapse" id="demo@(order.Id)">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="name">Name</th>
+                                                <th class="status">Count</th>
+                                                <th class="total">Price</th>
+                                                <th class="action">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (OrderItem orderItem in order.OrderItems)
+                                            {
+                                                <tr>
+                                                    <td>@orderItem.Product.Title</td>
+                                                    <td>@orderItem.Count</td>
+                                                    <td>@orderItem.Price</td>
+                                                    <td>@(orderItem.Price * orderItem.Count)</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+
+
+
+
+
+
+
+                </table>
+            </div>
+           <div  class="address newaddres w-100 @(TempData["Tab"]?.ToString() == "address" ? "show d-block active":"") container content-container d-none div3">
+                <div class="address-info mx-2 py-2">
+                    <h3 class="px-2">Address</h3>
+                    <a class="card-link main-btn main-btn-2  addAddress">Add Address</a>
+                    <hr>
+                    <div class="addressForm d-none">
+                        @await Html.PartialAsync("_AddressFormPartial",new Address())
+                    </div>
+
+                    <div class="addressContainer row my-3">
+                        @if (Model.Addresses != null && Model.Addresses.Count() > 0)
+                        {
+                            foreach (Address address in Model.Addresses)
+                            {
+                                <div class="account-address mt-30 col-lg-3">
+                                    <h6 class="name">@($"{address.Country} {address.City}")</h6>
+                                    <p>@address.AddressLine</p>
+                                    <p>Postal Code: @address.PostalCode</p>
+                                    <p>Is Main?: @address.IsMain</p>
+
+                                    <a class="main-btn main-btn-2" style="width:100%;" asp-controller="Account" asp-action="editAddress" asp-route-id="@address.Id"><i class="far fa-edit"></i> Edit Address</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+
+           
+
+                </div>
+
+            <div class="detail-content @(TempData["Tab"]?.ToString() == "detail" ? "show d-block active":"")  content-container container d-none  div4">
+                <form action="" method="post" >
+
+                    <h2 class="py-2">Account Details</h2>
+                    <hr>
+                    <!--  Name inputs -->
+                    <div asp-validation-summary="ModelOnly" class="text text-danger"></div>
+                    <div class="form-outline mb-4 w-45">
+                        <input asp-for="Name" class="form-control" />
+                        <label class="form-label" asp-for="Name"></label>
+                        <span asp-validation-for="Name" class="text text-danger"></span>
+                    </div>
+                    <div class="form-outline mb-4 w-45 " style="margin-left:24px;">
+                        <input asp-for="SurName" class="form-control" />
+                        <label class="form-label" asp-for="SurName"></label>
+                        <span asp-validation-for="SurName" class="text text-danger"></span>
+                    </div>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4 ">
+                        <input asp-for="Email" class="form-control" />
+                        <label class="form-label" asp-for="Email"></label>
+                        <span asp-validation-for="Email" class="text text-danger"></span>
+                    </div>
+                    <!-- UserName Input -->
+                    <div class="form-outline mb-4">
+                        <input asp-for="UserName" class="form-control" />
+                        <label class="form-label" asp-for="UserName"></label>
+                        <span asp-validation-for="UserName" class="text text-danger"></span>
+                    </div>
+                    <h2 class="py-2">Password</h2>
+                    <hr>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4 ">
+                        <input asp-for="OldPassword" class="form-control" />
+                        <label class="form-label" asp-for="OldPassword"></label>
+                        <span asp-validation-for="OldPassword" class="text text-danger"></span>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4 w-45">
+                        <input asp-for="Password" class="form-control" />
+                        <label class="form-label" asp-for="Password"></label>
+                        <span asp-validation-for="Password" class="text text-danger"></span>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4 w-45" style="margin-left:24px;">
+                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <label class="form-label" asp-for="ConfirmPassword"></label>
+
+                        <span asp-validation-for="ConfirmPassword" class="text text-danger"></span>
+                    </div>
+                    <button class="my-4">Save Changes</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

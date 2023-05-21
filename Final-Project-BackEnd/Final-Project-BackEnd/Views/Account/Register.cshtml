@@ -1,0 +1,68 @@
+﻿@model RegisterVM
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!-- Main Section -->
+
+
+    <div class="register-part"  style="margin-top:-3rem; ">
+    <div class="all-reg" style="
+    position: relative;
+    top: 8rem;
+margin-bottom:10rem;
+">
+        <div class="register-info">
+            <h2>  Register </h2>
+
+        </div>
+        <div class="register-form login-register container">
+            <p class="mt-10">Already have an account? <a asp-controller="account" asp-action="login">Log in instead!</a></p>
+
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text text-danger"></div>
+                <div class="single-form">
+                    <input asp-for=Name placeholder="First Name">
+                    <span asp-validation-for="Name" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=SurName placeholder="Last Name">
+                    <span asp-validation-for="SurName" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=FatherName placeholder="Father Name">
+                    <span asp-validation-for="FatherName" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=Email placeholder="Email Address">
+                    <span asp-validation-for="Email" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=UserName placeholder="Username">
+                    <span asp-validation-for="UserName" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=Password placeholder="Password">
+                    <span asp-validation-for="Password" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for=ConfirmPassword placeholder="Confirm Password">
+                    <span asp-validation-for="ConfirmPassword" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <button type="submit" class="main-btn main-btn-2">Register</button>
+                </div>
+            </form>
+
+
+
+        </div>
+
+    </div> 
+    </div>
+
+<!-- End of Main Section -->
+
+@section Scripts{
+    @await Html.PartialAsync("_Validation")
+;}

@@ -1,0 +1,36 @@
+﻿@model Address
+
+<form method="post" asp-controller="account" asp-action="addaddress" style="display:block;">
+    <div class="row">
+        <div class="col-md-12 mt-30 d-flex align-baseline">
+            <input asp-for="IsMain" id="account" style="width:3%;padding:5px 10px;">
+            <label asp-for="IsMain" style="position:sticky;"></label>
+        </div>
+        <div class="col-md-6">
+            <div class="single-form">
+                <input asp-for="Country" placeholder="Country" style="padding:5px 10px;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="single-form">
+                <input asp-for="City" placeholder="City" style="padding:5px 10px;">
+            </div>
+        </div>
+      
+        <div class="col-md-12">
+            <div class="single-form">
+                <input asp-for="PostalCode" placeholder="Postal Code" style="padding:5px 10px;">
+            </div>
+        </div>
+        <div class="col-md-12 pb-3">
+            <div class="single-form">
+                <input asp-for="AddressLine" placeholder="Address Line" style="padding:5px 10px; ">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="single-form">
+                <button   class="main-btn main-btn-2" style="width:73%;">Save Change</button>
+            </div>
+        </div>
+    </div>
+</form>

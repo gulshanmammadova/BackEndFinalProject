@@ -1,0 +1,70 @@
+﻿@model HeaderVM
+<header class="only-index">
+    <div class="container  ">
+        <nav class="navbar navbar-expand-lg navbar-light text-light d-flex ">
+            <div class="logo">
+                <a class="navbar-brand" asp-action="index" asp-controller="Home"><img src="~/assets/img/logo/@Html.Raw(Model.Settings.FirstOrDefault(s=>s.Key == "logo").Value)" alt="logo"></a>
+
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2  link" asp-controller="Home" asp-action="index">HOME</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2 link" asp-action="index" asp-controller="About">ABOUT US</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2 link" asp-action="Index" asp-controller="Shop">SHOP</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2 link" asp-controller="Contact" asp-action="Index">CONTACT US</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2 link" asp-controller="Blog" asp-action="Index">BLOG</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-light mx-2 link" asp-action="Index" asp-controller="Influencer">INFLUENCER GALLERY</a>
+                    </li>
+                    <li class="nav-item m-auto account-dd" onclick="Dropdown()">
+                        <i class="fa-regular fa-user mx-2" style="color: #ffffff !important;"></i>
+                        <div class="dropdown-content d-none ">
+                            <ul>
+                                @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                                {
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Profile">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Checkout">Checkout</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="signout">Sign Out</a>
+                                    </li>
+
+
+                                }
+                                else
+                                {
+
+                                    <li><a asp-controller="Account" asp-action="Login">Sign In</a></li>
+                                    <li><a asp-controller="Account" asp-action="Register">Sign Up</a></li>
+                                }
+                                   </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item m-auto py-2  header-cart">
+                      
+                    @await Html.PartialAsync("_BasketPartial",Model.BasketVMs)
+                                </li>
+                    @*Basket*@
+                   </ul>
+            </div>
+        </nav>
+    </div>
+</header>

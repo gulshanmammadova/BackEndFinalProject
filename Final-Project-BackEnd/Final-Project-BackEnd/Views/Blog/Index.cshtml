@@ -1,0 +1,98 @@
+﻿@model PageNatedList<Blog>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Main Section -->
+<main>
+
+
+
+
+
+
+
+    <!-- End of Header Section -->
+    <section id="blog">
+        <div class="blog-all">
+            <div class="blog-page-info ">
+                <div class="blog-bread-crump  mx-auto">
+                    <!-- Bread- Crump  -->
+                    <a asp-controller="home" class="fw-bold  ">HOME</a>
+                    <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
+                    <a asp-controller="blog" asp-action="index" class="fw-bold ">BLOG</a>
+                    <!--End of Bread- Crump  -->
+                    <!-- Page Name     -->
+                </div>
+                <h1 class="fw-bold text text-light">BLOG</h1>
+                <!--End of Page Name  -->
+
+            </div>
+
+
+
+        </div>
+    
+
+    </section>
+    <section id="blog-page">
+        <div class="all-blog  container row">
+            @foreach (var item in Model)
+                {
+                <div class="card col-lg-4  " style="height:44.5rem !important;">
+                    <div class="card-img  ">
+                        <span class="badge">TIPS STYLE</span>
+                        <a asp-controller="Blog" asp-action="detail" asp-route-id="@item.Id">
+                            <img class="card-img-top" src="~/assets/img/blog/@item.MainImage" alt="Card image cap">
+                        </a> <img class="card-admin-img" src="~/assets/img/blog/@item.CreatorImage" alt="Blig Admin Sekli">
+                    </div>
+                    <div class="card-body text-left">
+
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@item.LittleDesc</p>
+                        <a asp-controller="Blog" asp-action="detail" asp-route-id="@item.Id" class="btn fw-bold my-3">Read More...</a>
+                        <hr>
+                        <span class="blog-setting">@item.CreatedAt - @item.CreatedBy</span>
+                    </div>
+                </div>
+
+                }
+            
+        </div>
+    </section>
+    <div class="col-lg-12 mt-5 container">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                @if (Model.PageIndex > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link"
+                       asp-controller="Blog " asp-action="index" asp-route-pageIndex="@(Model.PageIndex-1)">Previous</a>
+                    </li>
+                }
+
+                @for (int i = Model.StartPage; i <= Model.EndPage; i++)
+                {
+                    <li class="page-item @(Model.PageIndex == i ? "active":"")">
+                        <a class="page-link"
+                       asp-controller="blog" asp-action="index" asp-route-pageIndex="@i">@i</a>
+                    </li>
+                }
+
+                @if (Model.PageIndex < Model.TotalPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link"
+                       asp-controller="blog" asp-action="index" asp-route-pageIndex="@(Model.PageIndex+1)">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Main Section -->
+
+</main>
+<!-- End of Main Section -->

@@ -1,0 +1,236 @@
+﻿@model IEnumerable<Team>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Main Section -->
+<main>
+
+
+
+
+
+
+
+    <section id="about">
+        <div class="about-all">
+            <div class="about-page-info ">
+                <div class="about-bread-crump  mx-auto">
+                    <!-- Bread- Crump  -->
+                    <a href="index.html" class="fw-bold  ">HOME</a>
+                    <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
+                    <a href="about.html" class="fw-bold ">ABOUT US</a>
+                    <!--End of Bread- Crump  -->
+                    <!-- Page Name     -->
+                </div>
+                <h1 class="fw-bold text text-light">ABOUT US</h1>
+                <!--End of Page Name  -->
+
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <section id="who-we-are">
+        <div class="info-about-us container">
+            <div class="img-us" data-aos="zoom-in-up" data-aos-delay="350">
+                <img src="~/assets/img/about/about-1.jpg" alt="About Us Image">
+            </div>
+            <div class="info-us">
+                <h5>WHO WE ARE</h5>
+                <h2>WE ARE HAND WATCH SHOP WITH BEST QUALITY</h2>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                    dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+                <div class="our-equality">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+
+                                Original Brands
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Best Price Selling
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Best Quality Products
+
+                            </span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-slogan">
+        <div class="motto container" data-aos="zoom-in-up" data-aos-delay="250">
+            <h1>KEEP ON TIME & BE YOUR BEST LOOKING STYLE</h1>
+            <i aria-hidden="true" class="fas fa-quote-right"></i>
+        </div>
+    </section>
+    <section id="our-team">
+
+        <div class="our-teammate container" data-aos="zoom-in  ">
+            <div class="team-info">
+                <h5>OUR TEAM</h5>
+                <h2>OUR TEAM WORK</h2>
+            </div>
+            <div class="team d-flex justify-content-between container">
+                @foreach (var item in Model)
+                {
+
+                    <div class="single-worker container" data-aos="zoom-in-up" data-aos-delay="150">
+                        <div class="worker-photo">
+                            <img src="~/assets/img/about/@item.Image"
+                             alt="Video Kapak Resmi">
+                            <div class="worker-info container">
+                                <p class="py-2">@item.Position</p>
+                                <h5>@item.Name</h5>
+                                <a href="@item.Facebook">
+                                    <i class="fa-brands fa-square-facebook"></i>
+
+                                </a>
+                                <a href="@item.Twitter">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                                <a href="@item.Instagram">
+                                    <i class="fa-brands fa-square-instagram"></i>
+
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                }
+
+                <!-- <div class="single-worker container">
+                  <div class="worker-photo" >
+                    <img src="~/assets/img/about/businessman-outside-the-office-1-p8ou6suzbfk1lsis6o6hf3xhzvpj3s9ge2praalv5k.jpg" alt="Video Kapak Resmi" >
+
+
+                  </div>
+                  <div class="worker-info container">
+                    <p>CEO</p>
+                     <h5>PETER PILS</h5>
+                     <i class="fa-brands fa-square-facebook"></i>
+                     <i class="fa-brands fa-square-twitter"></i>
+                     <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+                <div class="single-worker container">
+                  <div class="worker-photo" >
+                    <img src="~/assets/img/about/businessman-outside-the-office-1-p8ou6suzbfk1lsis6o6hf3xhzvpj3s9ge2praalv5k.jpg" alt="Video Kapak Resmi" >
+
+
+                  </div>
+                  <div class="worker-info container">
+                    <p>CEO</p>
+                     <h5>PETER PILS</h5>
+                     <i class="fa-brands fa-square-facebook"></i>
+                     <i class="fa-brands fa-square-twitter"></i>
+                     <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="custom-craft">
+        <div class="craft container">
+
+            <div class="custom-info container" data-aos="zoom-in  " data-aos-duration="190">
+                <h5>CUSTOM CRAFT</h5>
+                <h2>LETS KNOW HOW WE WORK BUILD CUSTOM WATCH</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                    pulvinar dapibus leo.
+                </p>
+                <div class="custom-equality">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Kids Hand Watch
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Men Hand Watch
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Woman Hand Watch
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="about.html"> BUILD CUSTOM</a>
+
+                </div>
+            </div>
+            <div class="img-video" data-aos="zoom-in  " data-aos-duration="200">
+                <img src="~/assets/img/about/close-up-of-old-clock-watch-mechanism-retro-clockwork-watch-with-gearwheels-gears-vintage-movement-1.jpg"
+                     alt="Video Kapak Resmi">
+                <a href="https://www.youtube.com/watch?v=XHOmBV4js_E" target="_blank"
+                   style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:block; width:80px; height:80px; background-color:rgba(0,0,0,0.6); border-radius:50%; text-align:center; line-height:80px; color:#fff; font-size:40px; text-decoration:none;">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+
+            <div class="slider-content container">
+                <div class="slider  row">
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-13.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-14.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-15.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-16-1.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-13.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-14.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-15.png" alt=""></div>
+                    <div class="img-div"><img src="~/assets/img/sponsor/logoipsum-logo-16-1.png" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="insta-address">
+        <div class="insta container">
+            <h1>FOLLOW US ON INSTAGRAM</h1>
+            <a href="contact.html" class="">
+                <i class="fa-brands fa-instagram"></i> USERNAME
+            </a>
+        </div>
+    </section>
+
+    <section id="imgs">
+        <div class="random-image">
+            <img src="~/assets/img/influencer/food-at-the-table-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="150">
+            <img src="~/assets/img/influencer/female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="180">
+            <img src="~/assets/img/influencer/holding-hands-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="210">
+            <img src="~/assets/img/influencer/knee-pain-running-injury-1.jpg" alt="" data-aos="zoom-in  " data-aos-duration="240">
+
+        </div>
+    </section>
+
+
+</main>
+<!-- End of Main Section -->

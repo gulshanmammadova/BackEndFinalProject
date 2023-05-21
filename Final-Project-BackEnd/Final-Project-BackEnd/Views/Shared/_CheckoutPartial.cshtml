@@ -1,0 +1,52 @@
+﻿@model Order
+<form id="orderCheckoutForm" action="" method="post">
+
+    <h2 class="py-2">Billing Address</h2>
+    <!--  Name inputs -->
+    <div class="form-outline mb-4 w-45" style="position:relative;">
+        <input asp-for="Name" class="form-control"  />
+        <label asp-for="Name" style="position:sticky;" class="form-label"></label>
+        <span asp-validation-for="Name" class="text-danger"></span>
+
+    </div>
+    <div class="form-outline mb-4 w-45 mt-20" style="position:relative;">
+        <input asp-for="SurName" class="form-control"  />
+        <label asp-for="SurName" style="position:sticky;" class="form-label"></label>
+        <span asp-validation-for="SurName" class="text-danger"></span>
+
+    </div>
+    <!-- Email input -->
+    <div class="form-outline mb-4 "style="position:relative;" >
+        <input asp-for="Email" class="form-control" />
+        <label class="form-label" style="position:sticky;" asp-for="Email"> </label>
+        <span asp-validation-for="Email" class="text-danger"></span>
+
+    </div>
+    <!-- UserName Input -->
+    <div class="form-outline mb-4" style="position:relative;">
+        <input asp-for="User" class="form-control"  />
+        <label asp-for="User" style="position:sticky;" class="form-label"></label>
+        <span asp-validation-for="User" class="text-danger"></span>
+
+    </div>
+    <div class="form-outline mb-4" style="position:relative;">
+        <input asp-for="AddressLine"  class="form-control" />
+        <label class="form-label" style="position:sticky;" asp-for="AddressLine"></label>
+        <span asp-validation-for="AddressLine" class="text-danger"></span>
+
+    </div>
+    <div class="form-outline mb-4" style="position:relative;">
+        <input asp-for="City" class="form-control"  />
+        <label class="form-label" style="position:sticky;" asp-for="City"></label>
+        <span asp-validation-for="City" class="text-danger"></span>
+
+    </div>
+    <div class="form-outline mb-4 " style="position:relative;">
+        <input asp-for="PostalCode" class="form-control"  />
+        <label class="form-label" style="position:sticky;" asp-for="PostalCode"></label>
+        <span asp-validation-for="PostalCode" class="text-danger"></span>
+
+    </div>
+    <hr>
+</form>
+

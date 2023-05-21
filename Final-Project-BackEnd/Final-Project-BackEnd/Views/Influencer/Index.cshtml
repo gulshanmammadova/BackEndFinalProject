@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Influencer>
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Main Section -->
+<main>
+
+
+
+
+
+
+
+    <section id="influencer-gallery ">
+        <div class="influencer-all">
+            <div class="influencer-page-info ">
+                <div class="influencer-bread-crump  mx-auto ">
+                    <!-- Bread- Crump  -->
+                    <a asp-action="index" asp-asp-controller="home" class="fw-bold  ">HOME</a>
+                    <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
+                    <a asp-action="index" asp-controller="Influencer" class="fw-bold "> iNFLUENCER GALLERY</a>
+                    <!--End of Bread- Crump  -->
+                    <!-- Page Name     -->
+                </div>
+                <h1 class="fw-bold text text-light">INFLUENCER GALLERY</h1>
+                <!--End of Page Name  -->
+
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <section id="gallery-all">
+        <div class="gallery-section">
+            <div class="gallery-info" data-aos="zoom-in  ">
+                <h5>OUR ENDORSMENT</h5>
+                <h2>THEY RECOMENDATION</h2>
+            </div>
+            <div class="people d-flex justify-content-between container">
+                @foreach (var item in Model)
+                {
+                <div class="influencer-photo" data-aos="zoom-in-up" data-aos-delay="150">
+                    <img src="~/assets/img//influencer/@item.Img" alt="Video Kapak Resmi">
+                    <a href="~/assets/video/@item.VideoUrl" target="_blank" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:block; width:80px; height:80px; background-color:rgba(0,0,0,0.6); border-radius:50%; text-align:center; line-height:80px; color:#fff; font-size:40px; text-decoration:none;">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="influencer-name"> <h5>@item.Name</h5></div>
+
+                </div>
+                    
+                }
+            </div>
+            <div class="photos">
+                <div class="image-container d-flex container">
+                    <div class="photo-img">
+                        <img class="image image-small" src="~/assets/img/influencer/blog-1.jpg" alt="Image 1" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-medium" src="~/assets/img/blog/blog-2.jpg" alt="Image 2" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-small" src="~/assets/img/influencer/blog-3.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-small" src="~/assets/img/influencer/close-up-of-businessman-touching-wristwatch-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-medium" src="~/assets/img/influencer/female-hands-with-moisturizing-cream-beauty-and-skin-care-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-small" src="~/assets/img/influencer/knee-pain-running-injury-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-large" src="~/assets/img/influencer/food-at-the-table-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-medium" src="~/assets/img/influencer/holding-hands-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="130">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="photo-img">
+                        <img class=" image image-small" src="~/assets/img/influencer/influencer-1.jpg" alt="Image 3" data-aos="zoom-in" data-aos-delay="110">
+                        <div class="overlay"></div>
+                    </div>
+
+                    <!-- Daha fazla resim eklenebilir -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</main>

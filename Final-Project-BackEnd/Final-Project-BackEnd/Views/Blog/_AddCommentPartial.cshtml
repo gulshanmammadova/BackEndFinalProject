@@ -1,0 +1,28 @@
+﻿@model Comment
+<form method="post" asp-controller="Blog" asp-action="AddComment">
+    <div class="form-group">
+        <label asp-for="Name" >*</label>
+        <input  class="form-control" asp-for="Name">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email address</label>
+        <input class="form-control" asp-for="Email">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Website">Website</label>
+        <input  class="form-control" asp-for="Website">
+    </div>
+    <div class="form-group">
+        <label asp-for="Commenttext">Comment*</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+   
+    <button >POST COMMENT</button>
+
+</form>
+
+@section Scripts{
+    @await Html.PartialAsync("_Validation")
+                            }

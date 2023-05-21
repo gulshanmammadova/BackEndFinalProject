@@ -1,0 +1,48 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<div style="margin-top:-4rem; ">
+<div style="
+    position: relative;
+    top: 8rem;
+margin-bottom:10rem;
+">
+
+        <div class="login-form container w-50 login-part login-register">
+            <div class="login-info">
+                <h2>  LOG IN </h2>
+
+            </div>
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text text-danger"></div>
+                <div class="single-form">
+                    <input asp-for="Email" placeholder="Email">
+                    <span asp-validation-for="Email" class="text text-danger"></span>
+                </div>
+                <div class="single-form">
+                    <input asp-for="Password" placeholder="Password">
+                    <span asp-validation-for="Password" class="text text-danger"></span>
+                </div>
+                <div class="custom-checkbox mt-30" style="display:flex;align-items:baseline;">
+                    <input asp-for="RemindMe" id="account" style="margin-left:-3px;width:4%;margin-right:1px;">
+                    <label for="account"></label>
+                    <p>Remember me</p>
+                </div>
+                <div class="single-form">
+                    <button type="submit" class="main-btn main-btn-2">Login</button>
+                </div>
+            </form>
+            <p class="mt-20"><a href="#">Lost your password?</a></p>
+            <p class="mt-10">No account? <a asp-controller="account" asp-action="Register">Create one here.</a></p>
+
+        </div>
+</div>
+</div>
+
+                    
+@section Scripts{
+    @await Html.PartialAsync("_Validation");
+}

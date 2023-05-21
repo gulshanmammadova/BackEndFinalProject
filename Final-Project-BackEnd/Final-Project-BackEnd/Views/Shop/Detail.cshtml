@@ -1,0 +1,289 @@
+﻿@model ProductReviewVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+<section id="shop">
+    <div class="shop-all">
+        <div class="shop-page-info ">
+            <div class="shop-bread-crump  mx-auto">
+                <!-- Bread- Crump  -->
+                <a asp-action="index" asp-controller="home" class="fw-bold  ">HOME</a>
+                <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
+                <a asp-action="index"asp-controller="Shop" class="fw-bold ">SHOP</a>
+                <!--End of Bread- Crump  -->
+                <!-- Page Name     -->
+            </div>
+            <h1 class="fw-bold text text-light">SHOP</h1>
+            <!--End of Page Name  -->
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+<section id="single-product">
+    <div class="quick-view container">
+        <div class="quick-view-img">
+      
+
+                <div class="slider-for">
+                    @foreach (var item in Model.Product.ProductImages)
+                {
+                    <div style="margin:0 auto;">
+                        <img src="~/assets/img/product/@item.Image" alt="Product Image" />
+                    </div>
+
+                }
+
+                          </div>
+                <div class="slider-nav">
+                @foreach (var item in Model.Product.ProductImages)
+                {
+                    <div >
+                        <img src="~/assets/img/product/@item.Image" alt="Product Image" />
+                    </div>
+
+                }
+
+
+
+
+            </div>
+
+      
+
+
+        </div>
+
+
+        <div class="quick-view-info">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="home" asp-action="index" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-controller="shop" asp-action="index" class="text-decoration-none">Shop</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Product.Title</li>
+                </ol>
+            </nav>
+            <h2>@Model.Product.Title</h2>
+
+            @if (Model.Product.DiscountedPrice > 0)
+            {
+                <p class="card-text">
+
+                    <del>$@Model.Product.Price</del><span class="discounted-price mx-2">$<span>@Model.Product.DiscountedPrice</span></span>
+                </p>
+            }
+            else
+            {
+                <span class="discounted-price mx-2">$<span>@Model.Product.Price</span>  </span>
+            }
+            
+            
+            <p>@Model.Product.Description</p>
+            <a  data-id="@Model.Product.Id" class="text-decoration-none addToBasket">ADD TO CARD</a>
+       
+         </div>
+    </div>
+</section>
+<section id="description-review " class="container">
+    <section class="product-description-area pt-50">
+        <div class="container-fluid custom-container">
+            <ul class="nav justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item  text-dark" role="presentation">
+                    <a style="padding:3px 5px;color:black;background-color:white;font-size:32px; " class="active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+                </li>
+                <li class="nav-item text-dark" role="presentation">
+                    <a id="review-tab" style="padding:3px 5px;color:black;background-color:white;font-size:32px; " data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Review</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="description" role="tabpanel" style="background-color:white;" aria-labelledby="description-tab">
+                    <div class="description container py-4">
+                  <p>@Model.Product.Description</p>
+                    
+                    </div> <!-- Description -->
+                </div>
+                <div class="tab-pane fade " style="background-color:white;" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <div class="product-rating-content container ">
+                        <div class="average-rating">
+                                @if (@Model.Product.Reviews.Count()!=0)
+                                {
+                                <h4 class="rating-overall text text-dark py-3">
+                                    @(@Model.Product.Reviews.Sum(r => r.Star) / @Model.Product.Reviews.Count()) <span class="text-dark">(Overall)</span>
+                                </h4>
+
+
+                                <p>Based on @Model.Product.Reviews.Count() Comments</p>
+                                }
+                              
+              
+                       </div>
+                        <div class="rating-list d-flex flex-wrap">
+                            <div class="single-rating me-2" style="color:#3282B8;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span style="color:black;">(@Model.Product.Reviews.Where(r=>r.Star == 5).Count())</span>
+                            </div>
+                            <div class="single-rating me-2" style="color:#3282B8;">
+                                
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(@Model.Product.Reviews.Where(r=>r.Star == 4).Count())</span>
+                            </div>
+                            <div class="single-rating me-2" style="color:#3282B8;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(@Model.Product.Reviews.Where(r=>r.Star == 3).Count())</span>
+                            </div>
+                            <div class="single-rating me-2" style="color:#3282B8;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(@Model.Product.Reviews.Where(r=>r.Star == 2).Count())</span>
+                            </div>
+                            <div class="single-rating me-2" style="color:#3282B8;">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(@Model.Product.Reviews.Where(r=>r.Star == 1).Count())</span>
+                            </div>
+                        </div>
+                        <div class="rating-items">
+                            @if (Model.Product.Reviews != null && Model.Product.Reviews.Count() > 0)
+                            { 
+                               
+
+                                foreach (Review review in Model.Product.Reviews)
+                                {
+                                    <div class="single-rating-item my-4">
+                                        <div class="rating-author d-flex flex-wrap">
+                                            <h4 class="author-name">@review.Name</h4>
+                                            <ul class="rating-star d-flex justify-content-between">
+                                                @for (int i = 1; i <= 5; i++)
+                                                {
+                                                    <li><i class="@(i <= review.Star ? "fas":"far") fa-star"></i></li>
+                                                }
+                                                <li><span>(@review.Star)</span></li>
+                                            </ul>
+                                        </div>
+                                        <p>@review.Description</p>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div><p>No Review</p></div>
+                            }
+                        </div>
+                        <div>
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                            {
+                                <div class="rating-form">
+                                    <h4 class="form-title">Add your Comments</h4>
+
+
+                                    @await Html.PartialAsync("_AddReviewPartial",Model.Review)
+                                </div>
+                            }
+
+                        </div>
+                    </div> <!-- Rating Content -->
+                </div>
+            </div> <!-- tab-content -->
+        </div> <!-- container -->
+    </section>
+
+</section>
+<section id="related-prod">
+    <div class="related-products-cart container">
+        <div class="related-info">
+
+            <h2>RELATED PRODUCT</h2>
+        </div>
+        <div class="related-card">
+            <div class="card">
+                <a href="single-shop.html">
+                    <img class="card-img-top" src="~/assets/img/product/unisex-watches-on.jpg" alt="Card image cap">
+
+                </a>    <div class="card-body">
+                    <span class="badge ">SALE!</span>
+                    <h5 class="card-title">Gold Hand Watch</h5>
+                    <p class="card-text">
+
+                        <del>$150.00</del><span class="discounted-price mx-2">$<span>100.00</span></span>
+                    </p>
+                    <a href="#" class="">ADD TO CARD</a>
+                </div>
+            </div>
+            <div class="card">
+
+                <a href="single-shop.html">
+                    <img class="card-img-top" src="~/assets/img/product/hand-watch-isolated.jpg" alt="Card image cap">
+
+                </a>
+                <div class="card-body">
+                    <span class="badge ">SALE!</span>
+
+                    <h5 class="card-title">Gold Hand Watch</h5>
+                    <p class="card-text">
+
+                        <del>$150.00</del><span class="discounted-price mx-2">$<span>100.00</span></span>
+                    </p>
+                    <a href="#" class="">ADD TO CARD</a>
+                </div>
+            </div>
+            <div class="card">
+
+                <a href="single-shop.html">
+                    <img class="card-img-top" src="~/assets/img/product/watch-isolated.jpg" alt="Card image cap">
+
+                </a>
+                <div class="card-body">
+                    <span class="badge ">SALE!</span>
+
+                    <h5 class="card-title">BROWN BEST WATCH</h5>
+                    <p class="card-text">
+
+                        <del>$150.00</del><span class="discounted-price mx-2">$<span>100.00</span></span>
+                    </p>
+                    <a href="#" class="">ADD TO CARD</a>
+                </div>
+            </div>
+            <div class="card">
+                <a href="single-shop.html">
+                    <img class="card-img-top" src="~/assets/img/product/men-s-mechanical.jpg" alt="Card image cap">
+
+                </a>
+                <div class="card-body">
+                    <span class="badge ">SALE!</span>
+
+                    <h5 class="card-title">MEKANO MEN WATCH</h5>
+                    <p class="card-text">
+
+                        <del>$150.00</del><span class="discounted-price mx-2">$<span>100.00</span></span>
+                    </p>
+                    <a href="#" class="">ADD TO CARD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

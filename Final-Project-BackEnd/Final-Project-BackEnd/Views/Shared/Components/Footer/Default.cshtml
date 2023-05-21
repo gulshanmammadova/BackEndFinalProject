@@ -1,0 +1,86 @@
+﻿@model IDictionary<string, string> 
+
+<footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container  pb-0">
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3  mt-3">
+                    <img src="~/assets/img/logo/@Model.FirstOrDefault(s=>s.Key == "logo")" alt="">
+                    <p>
+                        Allright Reserved – Lapak Hand Watch
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+
+                    <h4 class="text-uppercase mb-4 font-weight-bold">NAVIGATION</h4>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="home"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>Home Page</a>
+                    </p>
+                    <p>
+                        <a class="text-white"asp-controller="about" asp-action="index"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>About Us</a>
+                    </p>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="contact"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>Contact Us</a>
+                    </p>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="Influencer"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>Gallery</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h4 class="text-uppercase mb-4 font-weight-bold">
+                        Shop
+                    </h4>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="sHOP"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>New Arrival</a>
+                    </p>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="SHOP"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>Flash Sale</a>
+                    </p>
+                    <p>
+                        <a class="text-white" asp-action="index" asp-controller="SHOP"> <i aria-hidden="true" class="fas fa-angle-right mx-2"></i>Limited Sale</a>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class=" col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h4 class="text-uppercase mb-4 font-weight-bold">STAY IN TOUCH</h4>
+                    <p>
+                        <i class="fas fa-home mr-3 mx-2"></i>@Model.FirstOrDefault(s=>s.Key == "address").Value
+                    </p>
+                    <p><i class="fas fa-envelope mr-3 mx-2"></i> @Model.FirstOrDefault(s=>s.Key == "email").Value</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3">
+    </div>
+    <!-- Grid container -->
+
+</footer>
+<!-- End of Footer Section -->
+<!-- Script src -->

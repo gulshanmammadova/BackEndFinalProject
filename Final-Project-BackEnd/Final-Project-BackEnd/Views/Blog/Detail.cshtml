@@ -1,0 +1,78 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<!-- Main Section -->
+<main>
+
+
+
+
+
+
+
+    <section id="blog">
+        <div class="blog-all">
+            <div class="blog-page-info ">
+                <div class="blog-bread-crump  mx-auto">
+                    <!-- Bread- Crump  -->
+                    <a asp-controller="Home" class="fw-bold  ">HOME</a>
+                    <i class="fa-solid fa-chevron-right brend-crump-icon text text-light mx-2"></i>
+                    <a asp-controller="Blog" class="fw-bold ">BLOG</a>
+                    <!--End of Bread- Crump  -->
+                    <!-- Page Name     -->
+                </div>
+                <h1 class="fw-bold text text-light">BLOG</h1>
+                <!--End of Page Name  -->
+
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <section id="single-blog-part ">
+        <div class="single-blog ">
+            <div class="blog-photo">
+                <img class="w-100" src="/assets/img/blog/@Model.MainImage"
+                     alt="Blog Photo">
+            </div>
+            <div class="blog-setting-info ">
+                <div class="blog-creater-info">
+                    <img class="blog-ceator " src="/assets/img/blog/@Model.CreatorImage" alt="Blog Creator">
+                    <h5>@Model.CreatedBy</h5>
+                </div>
+                <hr>
+                <span class="created-day my-2">@Model.CreatedAt?.ToString("dd MMM yyyy") | </span><span class="created-time my-4">@Model.CreatedAt?.ToString("hh\\:mm\\:ss") </span><span class="comment-count my-2"> | No Comment</span>
+                <hr>
+            </div>
+            <div class="blog-text">
+                <h2 class="blog title">@Model.Title</h2>
+                <p class="blog-big-description">
+                
+                  
+                @Model.Description
+                
+                </p>
+            </div>
+            <div class="comment">
+                <h2>LIVE A REPLY</h2>
+                <p class="my-3">Your email address will not be published.Required fields are marked *</p>
+                <div class="comment-form-group">
+
+                    @await Html.PartialAsync("_AddCommentPartial.cshtml",Model.Comments)
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+</main>
+<!-- End of Main Section -->

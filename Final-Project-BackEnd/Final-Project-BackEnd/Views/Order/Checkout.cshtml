@@ -1,0 +1,44 @@
+﻿@model OrderVM
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<section id="checkout-all " style="margin-top:-4rem;">
+    <div class="checkout-content container" style="    padding: 13rem 0px;">
+        <div class="checkout " style="
+             top: 8rem;
+             margin-bottom:10rem;">
+           @await Html.PartialAsync("_CheckoutPartial",Model.Order)
+                  
+        
+        </div>
+        <div class="checkout-cart">
+            <h2 class="py-2">Cart Total</h2>
+            <div class="checkout-cart-pricebox">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"><h5 class="fw-bold">Products</h5></th>
+                            <th scope="col"><h5 class="fw-bold">Total</h5></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (BasketVM basketVM in Model.BasketVMs)
+                        {
+                            <tr>
+                                <td>
+                                   @basketVM.Title x @basketVM.Count
+                                </td>
+                                <td>@(basketVM.Price * basketVM.Count)$</td>
+                            </tr>
+                        }
+                      
+                         </tbody>
+                </table>
+                <button form="orderCheckoutForm" class="main-btn main-btn-2">Place Order</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
