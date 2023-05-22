@@ -45,15 +45,8 @@
                                     </div>
                                 </td>
 
-                                <td class="total-price-column"><span>$ 
-                                       @if (basketVM.Count==1)
-                                        {
-                                            @basketVM.Price
-                                        }
-                                        else
-                                        {
-                                            @(basketVM.Count * basketVM.Price)
-                                        }
+                                <td class="total-price-column"><span>$
+                                        @(basketVM.Count * basketVM.Price)
                                     </span></td>
                                 <td>
                                         <a data-id="@basketVM.Id" class="removeProdInCart">

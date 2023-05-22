@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-6.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-7.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\blog\\blog-admin-1.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-admin-1.jpeg"
     },
@@ -349,16 +353,28 @@
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230521234834669-fe506e11-8167-4d1a-8200-c3daf0821b8e-VV006RGDBLK.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\98C133.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\98C133.jpg"
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230522193014277-6527c1ee-733f-4b83-9008-9c59a29d3ab0-VV006RGDBLK.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230522193014277-6527c1ee-733f-4b83-9008-9c59a29d3ab0-VV006RGDBLK.jpg"
     },
     {
-      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\MK6845.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\MK6845.jpg"
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230522193014325-4e939f8c-b218-420d-9bd9-d5ee44e39c68-hand-watch-isolated.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230522193014325-4e939f8c-b218-420d-9bd9-d5ee44e39c68-hand-watch-isolated.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230522193014330-51d2e7cf-9a8f-42a9-8d43-cb32c0f3e94a-men-s.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230522193014330-51d2e7cf-9a8f-42a9-8d43-cb32c0f3e94a-men-s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230522193014334-5559d337-bf30-4926-85da-1892a7024961-unisex-watches-on.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\20230522193014334-5559d337-bf30-4926-85da-1892a7024961-unisex-watches-on.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\VV006RGDBLK.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\VV006RGDBLK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\classicwatch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\classicwatch.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\closeup-of-watch-1.jpg",
@@ -369,8 +385,20 @@
       "PackagePath": "staticwebassets\\assets\\img\\product\\download.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\golden-watch-isolated-on-a-white-background-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\golden-watch-isolated-on-a-white-background-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\hand-watch-isolated.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\hand-watch-isolated.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanical.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\men-s-mechanical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanicals - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\men-s-mechanicals - Copy.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
@@ -435,6 +463,10 @@
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\css\\style.css",
       "PackagePath": "staticwebassets\\manage\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\admin.jpeg",
+      "PackagePath": "staticwebassets\\manage\\img\\admin.jpeg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\img\\testimonial-1.jpg",

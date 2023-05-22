@@ -5,29 +5,36 @@
 }
 <div class="container mt-5">
     <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-10 my-4">
             <h1 class="h3 mb-4 text-gray-800">Product Detail Page</h1>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 my-4">
             <a class="btn btn-primary" asp-action="index" asp-controller="product" asp-area="manage"> Go To Home</a>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row my-4" style="background-color:black;">
         <div class="col-lg-4" style="width: 50rem;">
-            <div class="card mx-3" >
+            <div class="card mx-3" style="background-color:black;" >
                     @if (Model.MainImage != null)
                     {
-                        <img class="card-img-top w-50" src="~/assets/img/product/@Model.MainImage" />
+                        <img class="card-img-top w-50 mb-4" src="~/assets/img/product/@Model.MainImage" />
                     }
-                    <h5 class="card-title text-bg-danger text-danger">Name: @Model.Title</h5>
+                    <h5 class="card-title text-danger">Name: @Model.Title</h5>
                     <div class="card-title text-danger text">
-                        <p style="color:black;">
-                            @Model.Description
-                        </p>
+                    <p style="color:white;">
+                        @Model.Description
+                    </p>
+                    <p style="color:white;">
+                       Code: @Model.Code
+                    </p>
+                    <p style="color:white;">
+                        CreatedBy: @Model.CreatedBy
+                    </p>
+                    
                     </div>
-                <div class="card-title text-danger text">
-                        <p class="text-danger text-danger" style="color:black;">
+                <div class="card-title text-danger text" >
+                        <p class="text-danger text-danger" style="color:white;">
                             @Model.CreatedBy
                         </p>
                     </div>
