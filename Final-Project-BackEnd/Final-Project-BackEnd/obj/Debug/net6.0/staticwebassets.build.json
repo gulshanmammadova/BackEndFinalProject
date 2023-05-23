@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7Q/GS8MvaE05JSLA3qenyPvy9NnTP7GJtKLcH+nI8ZU=",
+  "Hash": "gJ9lHJ+pYwGbou8uiwy8TOtYSyng+VBCnbb5hVZHG64=",
   "Source": "Final-Project-BackEnd",
   "BasePath": "_content/Final-Project-BackEnd",
   "Mode": "Default",
@@ -833,6 +833,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\logo-1.png"
     },
     {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg"
+    },
+    {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506144428889-7da36db0-edd4-4e26-84cb-cfecb6ad9feb-closeup-of-watch-1.jpg",
       "SourceId": "Final-Project-BackEnd",
       "SourceType": "Discovered",
@@ -865,6 +882,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230506144456904-cd687507-123c-4147-9f38-70592dffce95-closeup-of-watch-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230506145805403-ae7fb544-900a-4cd9-b166-8955eecb257f-unisex-watches-on.jpg",
@@ -1647,6 +1681,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230523133621718-ed77d59a-2c2d-45cb-9542-1340dac5cffc-men-s-mechanicals - Copy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\classicwatch.jpg",

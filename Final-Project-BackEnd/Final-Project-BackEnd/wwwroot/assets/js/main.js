@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 // Timer
 $(document).ready(function () {
-    var countDownDate = new Date("May 30, 2023 00:23:59").getTime(); // hedef tarihi ayarla
+    var countDownDate = new Date("June 10, 2023 00:23:59").getTime(); // hedef tarihi ayarla
     var x = setInterval(function () {
         var now = new Date().getTime();
         var distance = countDownDate - now;

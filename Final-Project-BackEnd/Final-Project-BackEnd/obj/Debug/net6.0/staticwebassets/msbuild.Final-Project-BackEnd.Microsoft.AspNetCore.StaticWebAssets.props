@@ -768,6 +768,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\logo\logo-1.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Project-BackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Project-BackEnd</BasePath>
+      <RelativePath>assets/img/product/20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230505203925784-c38008b9-06dc-498b-b0f0-9f7a9dfef4f4-men-s-mechanicals.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230506144428889-7da36db0-edd4-4e26-84cb-cfecb6ad9feb-closeup-of-watch-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Project-BackEnd</SourceId>
@@ -799,6 +815,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230506144456904-cd687507-123c-4147-9f38-70592dffce95-closeup-of-watch-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Project-BackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Project-BackEnd</BasePath>
+      <RelativePath>assets/img/product/20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230506145332058-f850350a-4217-4930-b0bf-0ca153f2a8ef-watch-isolated-on-white-background.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230506145805403-ae7fb544-900a-4cd9-b166-8955eecb257f-unisex-watches-on.jpg))">
       <SourceType>Package</SourceType>
@@ -1535,6 +1567,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230523133621718-ed77d59a-2c2d-45cb-9542-1340dac5cffc-men-s-mechanicals - Copy.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Project-BackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Project-BackEnd</BasePath>
+      <RelativePath>assets/img/product/20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230523151035084-d9daef53-5562-422e-8d85-d277977d8df7-men-s-mechanicals - Copy.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Project-BackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Project-BackEnd</BasePath>
+      <RelativePath>assets/img/product/20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\20230523151035094-144cd5f1-d0c3-4c77-b2ae-24cb13f34c85-men-s-mechanicals.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\product\classicwatch.jpg))">
       <SourceType>Package</SourceType>
