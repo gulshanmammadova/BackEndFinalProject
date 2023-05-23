@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gJ9lHJ+pYwGbou8uiwy8TOtYSyng+VBCnbb5hVZHG64=",
+  "Hash": "Z0tvaf49G56EoiANn96+Xn1wQGR1J2d9GK5Jm7XK/NE=",
   "Source": "Final-Project-BackEnd",
   "BasePath": "_content/Final-Project-BackEnd",
   "Mode": "Default",
@@ -1802,23 +1802,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\hand-watch-isolated.jpg"
     },
     {
-      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
-      "SourceId": "Final-Project-BackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
-      "BasePath": "_content/Final-Project-BackEnd",
-      "RelativePath": "assets/img/product/men-s.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\men-s.jpg"
-    },
-    {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s-mechanical.jpg",
       "SourceId": "Final-Project-BackEnd",
       "SourceType": "Discovered",
@@ -1868,6 +1851,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\men-s-mechanicals.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/men-s.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\men-s.jpg"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\swiss-mechanical-wrist-watch-300x300.jpg",
@@ -1921,23 +1921,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\VV006RGDBLK.jpg"
     },
     {
-      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated.jpg",
-      "SourceId": "Final-Project-BackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
-      "BasePath": "_content/Final-Project-BackEnd",
-      "RelativePath": "assets/img/product/watch-isolated.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\watch-isolated.jpg"
-    },
-    {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated-on-white-background.jpg",
       "SourceId": "Final-Project-BackEnd",
       "SourceType": "Discovered",
@@ -1953,6 +1936,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\product\\watch-isolated-on-white-background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\watch-isolated.jpg",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "assets/img/product/watch-isolated.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\watch-isolated.jpg"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\sponsor\\logoipsum-logo-13.png",
@@ -2516,23 +2516,6 @@
       "OriginalItemSpec": "wwwroot\\manage\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js",
-      "SourceId": "Final-Project-BackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
-      "BasePath": "_content/Final-Project-BackEnd",
-      "RelativePath": "manage/lib/tempusdominus/js/moment.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js"
-    },
-    {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "SourceId": "Final-Project-BackEnd",
       "SourceType": "Discovered",
@@ -2548,6 +2531,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "manage/lib/tempusdominus/js/moment.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manage\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
@@ -3230,23 +3230,6 @@
       "OriginalItemSpec": "wwwroot\\manage\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "SourceId": "Final-Project-BackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
-      "BasePath": "_content/Final-Project-BackEnd",
-      "RelativePath": "manage/scss/bootstrap/scss/bootstrap.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss"
-    },
-    {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "Final-Project-BackEnd",
       "SourceType": "Discovered",
@@ -3296,6 +3279,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "SourceId": "Final-Project-BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Final-Project-BackEnd",
+      "RelativePath": "manage/scss/bootstrap/scss/bootstrap.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manage\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
       "Identity": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\manage\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
