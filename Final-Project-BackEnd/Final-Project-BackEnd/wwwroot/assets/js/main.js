@@ -87,22 +87,22 @@ function zoom(e) {
 
 // COUNT VE PRICE ELAQESI
 
-$(document).ready(function() {
-  $('tr').each(function() {
-    var count = $(this).find('.count-input').val();
-    var price = $(this).find('.price-column').text().replace('$', '');
-    var total = count * price;
-    $(this).find('.total-price-column').text('$' + total);
-  });
-   $('.count-input').on('change', function() {
-    $('tr').each(function() {
-      var count = $(this).find('.count-input').val();
-      var price = $(this).find('.price-column').text().replace('$', '');
-      var total = count * price;
-      $(this).find('.total-price-column').text('$' + total);
-    });
-  });
-});
+//$(document).ready(function() {
+//  $('tr').each(function() {
+//    var count = $(this).find('.count-input').val();
+//    var price = $(this).find('.price-column').text().replace('$', '');
+//    var total = count * price;
+//    $(this).find('.total-price-column').text('$' + total);
+//  });
+//   $('.count-input').on('change', function() {
+//    $('tr').each(function() {
+//      var count = $(this).find('.count-input').val();
+//      var price = $(this).find('.price-column').text().replace('$', '');
+//      var total = count * price;
+//      $(this).find('.total-price-column').text('$' + total);
+//    });
+//  });
+//});
 // CARUSEL
   
 $('.slider').slick({

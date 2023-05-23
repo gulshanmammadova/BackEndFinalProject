@@ -1,10 +1,12 @@
-﻿@inject ILayoutService layoutService
+﻿@model List<BasketVM>
 @{
     ViewData["Title"] = "ViewCart";
-    IEnumerable<BasketVM> basketVMs = await layoutService.GetBaskets();
+    //IEnumerable<BasketVM> basketVMs = await layoutService.GetBaskets();
 }
 
+
+
 <section id="cart" class="cart-area">
-    @await Html.PartialAsync("_CartPartial",basketVMs)
+    @await Html.PartialAsync("_CartPartial",Model)
 </section>
 

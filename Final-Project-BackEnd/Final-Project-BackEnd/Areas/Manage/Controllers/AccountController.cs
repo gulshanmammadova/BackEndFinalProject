@@ -60,33 +60,33 @@ namespace Final_Project_BackEnd.Areas.Manage.Controllers
         //    return RedirectToAction("index", "dashboard", new { area = "manage" });
         //}
 
-       // [HttpGet]
-       // public async Task<IActionResult> CreateRole()
-       // {
-       //     await _roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
-       //     await _roleManager.CreateAsync(new IdentityRole("Admin"));
-       //    await _roleManager.CreateAsync(new IdentityRole("Member"));
+        // [HttpGet]
+        // public async Task<IActionResult> CreateRole()
+        // {
+        //     await _roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
+        //     await _roleManager.CreateAsync(new IdentityRole("Admin"));
+        //    await _roleManager.CreateAsync(new IdentityRole("Member"));
 
-       //     return Content("Ugurlu Oldu");
-       //}
-
-        //[HttpGet]
-        //public async Task<IActionResult> CreateUser()
-        //{
-        //    AppUser appUser = new AppUser
-        //    {
-        //        Name = "Super",
-        //        SurName = "Admin",
-        //        FatherName = "SuperAdminFather",
-        //        UserName = "SuperAdmin",
-        //        Email = "superadmin@gmail.com"
-        //    };
-
-        //    await _userManager.CreateAsync(appUser, "SuperAdmin133");
-        //    await _userManager.AddToRoleAsync(appUser, "SuperAdmin");
-
-        //    return Content("Ugurlu Oldu");
+        //     return Content("Ugurlu Oldu");
         //}
+
+        [HttpGet]
+        public async Task<IActionResult> CreateUser()
+        {
+            AppUser appUser = new AppUser
+            {
+                Name = "Super",
+                SurName = "Admin",
+                FatherName = "SuperAdminFather",
+                UserName = "SuperAdminMain",
+                Email = "Superadmin1@gmail.com"
+            };
+
+            await _userManager.CreateAsync(appUser, "SuperAdmin133");
+            await _userManager.AddToRoleAsync(appUser, "SuperAdmin");
+
+            return Content("Ugurlu Oldu");
+        }
         [HttpGet]
         public IActionResult Login()
         {

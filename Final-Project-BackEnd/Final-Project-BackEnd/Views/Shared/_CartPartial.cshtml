@@ -38,16 +38,14 @@
                                     </p>
                                 </td>
                                 <td>
-                                    <div class="number">
+                                    <div class="number count-input">
                                         <span data-id="@basketVM.Id" class="minus-btn">-</span>
                                         <input class="countİnpForProduct" type="text" value=@basketVM.Count />
                                         <span data-id="@basketVM.Id" class="plus-btn">+</span>
                                     </div>
                                 </td>
 
-                                <td class="total-price-column"><span>$
-                                        @(basketVM.Count * basketVM.Price)
-                                    </span></td>
+                                <td class="total-price-column"><p>$@(basketVM.Price*basketVM.Count)</p></td>
                                 <td>
                                         <a data-id="@basketVM.Id" class="removeProdInCart">
                                         <i class="fa-solid fa-trash-can"></i>

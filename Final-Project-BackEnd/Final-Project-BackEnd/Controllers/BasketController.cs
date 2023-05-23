@@ -72,9 +72,11 @@ namespace Final_Project_BackEnd.Controllers
                 }
                 else
                 {
+
                     Basket dbbasket = new Basket
                     {
                         ProductId = id,
+                        
                         Count = basketVMs.FirstOrDefault(b => b.Id == id).Count,
                     };
 
@@ -118,6 +120,19 @@ namespace Final_Project_BackEnd.Controllers
         {
             string basket = HttpContext.Request.Cookies["basket"];
             List<BasketVM> basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+
+            foreach (BasketVM basketVM in basketVMs)
+            {
+                Product product = await _context.Products
+                    .FirstOrDefaultAsync(p => p.Id == basketVM.Id && p.IsDeleted == false);
+
+                if (product != null)
+                {
+                    basketVM.Price = product.DiscountedPrice > 0 ? product.DiscountedPrice : product.Price;
+                    basketVM.Title = product.Title;
+                    basketVM.Image = product.MainImage;
+                }
+            }
 
             return View(basketVMs);
         }

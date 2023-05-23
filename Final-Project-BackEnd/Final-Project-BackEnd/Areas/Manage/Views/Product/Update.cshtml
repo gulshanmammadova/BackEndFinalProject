@@ -59,9 +59,9 @@
                         <input asp-for="Files" class="form-control" accept="image/jpeg">
                         <span asp-validation-for="Files" class="text text-danger"></span>
                     </div>
-                <div class="row mx-4 productImages">
+            @*    <div class="row mx-4 productImages mb-4">
                         @await Html.PartialAsync("_ProductImagePartial",Model.ProductImages)
-                    </div>
+                    </div>*@
 
                 <div class="input-group mb-3 mx-4">
                     <select asp-for="CategoryId" class="custom-select" asp-items="new SelectList(ViewBag.Categories,nameof(Category.Id), nameof(Category.Name))">

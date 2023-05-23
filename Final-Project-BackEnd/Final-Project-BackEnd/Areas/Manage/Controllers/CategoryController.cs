@@ -3,13 +3,16 @@ using Final_Project_BackEnd.Extentions;
 using Final_Project_BackEnd.Helpers;
 using Final_Project_BackEnd.Models;
 using Final_Project_BackEnd.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Drawing.Drawing2D;
 
 namespace Final_Project_BackEnd.Areas.Manage.Controllers
 {
     [Area("manage")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;

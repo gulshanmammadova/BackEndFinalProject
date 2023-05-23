@@ -5,58 +5,58 @@
     ViewData["Title"] = "Create";
 }
 
-<div class="row">
-    <div class="col-lg-2">
-        <h1 class="h3 mb-4 text-gray-800">Category Product Page</h1>
+<div style="margin-left:4rem; margin-bottom:2rem;">
+    <div class="col-lg-10">
+        <h1 class="h3 mb-4 text-gray-800">Create Product Page</h1>
     </div>
-</div>
+
 <div class=" row">
     <div class="col-lg-8">
         <form method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label asp-for="Title" class="form-label"></label>
-                <input asp-for="Title" class="form-control">
+                <input asp-for="Title" class="form-control " style="background-color:white;">
                 <span asp-validation-for="Title" class="text text-danger"></span>
             </div>
             <div class="mb-3">
                 <label asp-for="Price" class="form-label"></label>
-                <input asp-for="Price" class="form-control">
+                <input asp-for="Price" class="form-control" style="background-color:white;">
                 <span asp-validation-for="Price" class="text text-danger"></span>
             </div>
             <div class="mb-3">
                 <label asp-for="DiscountedPrice" class="form-label"></label>
-                <input asp-for="DiscountedPrice" class="form-control">
+                <input asp-for="DiscountedPrice" class="form-control" style="background-color:white;">
                 <span asp-validation-for="DiscountedPrice" class="text text-danger"></span>
             </div>
             <div class="mb-3">
                 <label asp-for="Count" class="form-label"></label>
-                <input asp-for="Count" class="form-control">
+                <input asp-for="Count" class="form-control"style="background-color:white;">
                 <span asp-validation-for="Count" class="text text-danger"></span>
             </div>
             <div class="mb-3 form-check">
                 <input asp-for="IsNewArrival" class="form-check-input">
-                <label asp-for="IsNewArrival" class="form-check-label"></label>
+                <label asp-for="IsNewArrival" class="form-check-label" ></label>
                 <span asp-validation-for="IsNewArrival" class="text text-danger"></span>
             </div>
             <div class="mb-3 form-check">
                 <input asp-for="IsSpecialSale" class="form-check-input">
-                <label asp-for="IsSpecialSale" class="form-check-label"></label>
+                <label asp-for="IsSpecialSale" class="form-check-label" ></label>
                 <span asp-validation-for="IsSpecialSale" class="text text-danger"></span>
             </div>
             <div class="mb-3 form-check">
-                <input asp-for="IsFeatured" class="form-check-input">
+                <input asp-for="IsFeatured" class="form-check-input>
                 <label asp-for="IsFeatured" class="form-check-label"></label>
                 <span asp-validation-for="IsFeatured" class="text text-danger"></span>
             </div>
             <div class="mb-3">
                 <label asp-for="MainFile" class="form-label">Default file input example</label>
-                <input asp-for="MainFile" class="form-control" accept="image/jpeg">
+                <input asp-for="MainFile" class="form-control" accept="image/jpeg" style="background-color:white;">
                 <span asp-validation-for="MainFile" class="text text-danger"></span>
             </div>
-            
+
             <div class="mb-3">
                 <label asp-for="Files" class="form-label">Default file input example</label>
-                <input asp-for="Files" class="form-control" accept="image/jpeg">
+                <input asp-for="Files" class="form-control" accept="image/jpeg" style="background-color:white;">
                 <span asp-validation-for="Files" class="text text-danger"></span>
             </div>
             <div id="parentList">
@@ -73,6 +73,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+</div>
 </div>
 
 @section Scripts{

@@ -9,7 +9,7 @@ using System.Data;
 namespace Final_Project_BackEnd.Areas.Manage.Controllers
 {
     [Area("Manage")]
- //  [Authorize(Roles = "SuperAdmin,Admin")]
+  [Authorize(Roles = "SuperAdmin,Admin")]
     public class OrderController : Controller
     {
         private readonly AppDbContext _context;

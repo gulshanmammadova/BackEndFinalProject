@@ -7,10 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Final_Project_BackEnd.ViewModels;
 using Final_Project_BackEnd.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+
+
 
 namespace Final_Project_BackEnd.Areas.Manage.Controllers
 {
     [Area("manage")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
 
     public class ProductController : Controller
     {
