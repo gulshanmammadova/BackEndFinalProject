@@ -241,14 +241,6 @@
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515130841275-81ba9e68-b66f-4e56-a1e5-1cc5134d298d-MK6845.jpg"
     },
     {
-      "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131106803-8e9476d0-ac01-422e-8bfb-f6cc476f4806-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131106803-8e9476d0-ac01-422e-8bfb-f6cc476f4806-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg"
-    },
-    {
-      "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131131252-2223bb1f-456c-4d25-af12-87cde1aec750-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131131252-2223bb1f-456c-4d25-af12-87cde1aec750-20230515130841266-d503b4d2-b4a0-4c15-91f9-6fb9532fc0a9-98C133.jpg"
-    },
-    {
       "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\20230515131147780-96311fc4-36fa-47d4-802d-05c3757604cc-swiss-mechanical-wrist-watch-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\20230515131147780-96311fc4-36fa-47d4-802d-05c3757604cc-swiss-mechanical-wrist-watch-300x300.jpg"
     },
@@ -439,6 +431,10 @@
     {
       "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\men-s.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\men-s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\prod-copi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\prod-copi.jpg"
     },
     {
       "Id": "C:\\Users\\gulshanfm\\Desktop\\BackEndFinalProject\\Final-Project-BackEnd\\Final-Project-BackEnd\\wwwroot\\assets\\img\\product\\swiss-mechanical-wrist-watch-300x300.jpg",
