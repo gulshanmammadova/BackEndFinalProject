@@ -3,8 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+.all-blog .card .card-img .card-img-top {
+    width: 108% !important;
+    margin-left: -12px;
+}
 .newaddres {
 background-color:white !important;
+}
+.all-blog .card {
+    height: 49rem !important;
 }
 body {
     margin-bottom: -17px;
@@ -311,9 +318,10 @@ padding-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
-.nev-arrival-product{
-  width: 75%;
-}
+  
+    .nev-arrival-product {
+        width: 75%;
+    }
 .card{
  width: 30%;
 height: 27rem;
@@ -1538,9 +1546,26 @@ header .link:hover::before{
     width: 100%;
     margin:1rem 0 4rem 0 ;
   }
-  .sale-all .sale-name h5{
-    font-size: 33px;
-  }
+    .new-prod-card .card {
+        margin: 7rem auto !important;
+    }
+    .special-prod-card .card {
+        margin: 7rem auto !important;
+    }
+    .all-blog .card {
+    height:49rem !important;
+    }
+   
+    .all-blog .card .card-img .card-img-top {
+        width: 106% !important;
+        margin-left: -12px;
+    }
+    .latest-prod-card .card {
+        margin: 7rem auto !important;
+    }
+    .sale-all .sale-name h5 {
+        font-size: 33px;
+    }
   .best-choice{
     flex-direction: column-reverse;
     display: block;
@@ -5255,7 +5280,7 @@ opacity: 0.4;
    min-height: 100%;
    width: 30% !important;
    filter: grayscale(0.1);
-  height: 42rem !important;
+  height: 45rem !important;
    margin: 3rem auto;
 }
 .all-blog .card img{
@@ -5323,9 +5348,24 @@ opacity: 0.4;
 }
 @media only screen and (max-width: 576px) 
 {
-   .blog-bread-crump{
-       width: 50%;
-   }
+    .get-in-touch .title {
+    width:100% !important;
+    }
+    touch .title h2::before {
+        content: '';
+        width: 50% !important;
+        height: 8px !important;
+        background-color: #3282B8;
+        bottom: 6px;
+        left: 7rem;
+        display: block;
+    }
+    .lets-get-in-touch {
+    font-size:56px !important;
+    }
+    .blog-bread-crump {
+        width: 50%;
+    }
    .all-blog{
        display: block;
    }
